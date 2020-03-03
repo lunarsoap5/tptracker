@@ -1,0 +1,15 @@
+﻿{
+  "name": "Twilight Princess Item Tracker",
+  "game_name": "Twilight Princess",
+  "package_version": "1.0",
+  "package_uid": "tptracker_lunar",
+  "author": "Lunar Soap",
+  "variants": {
+    "standard": {
+      "display_name": "Standard"
+    },
+    "var_HD": {
+      "display_name": "HD Version"
+    }
+    }
+  }
