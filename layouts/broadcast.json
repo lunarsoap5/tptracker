@@ -31,12 +31,12 @@
 												"item_size": 36,
 												"item_margin": "0,0,10,5",
                         "rows": [
-                          [ "rod", "slingshot", "lanturn", "boomerang", "irons", "bow" ],
+                          [ "rod", "slingshot", "lantern", "boomerang", "irons", "bow" ],
                           [ "bomb1", "bomb2", "bomb3", "hawkeye", "clawshot", "spinner" ],
                           [ "chainball", "dominion", "bottle1", "bottle2", "bottle3", "bottle4" ],
                           [ "entry", "charm", "bugs", "sword1", "sword2", "sword3" ],
                           [ "poh", "container", "soul", "skills", "shield2", "shield3" ],
-                          [ "wallet", "postman", "scent1", "greentunic", "bluetunic", "redtunic" ]
+                          [ "wallet", "letters", "scent1", "greentunic", "bluetunic", "redtunic" ]
                         ]
 											},
 											{

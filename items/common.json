@@ -85,13 +85,13 @@
         "img": "images/giantbombbag.png"
       },
       {
-        "img": "images/bomb.png"
+        "img": "images/GiantBombs2.png"
       },
       {
-        "img": "images/bomb-water.png"
+        "img": "images/GiantBombs3.png"
       },
       {
-        "img": "images/bombling.png"
+        "img": "images/GiantBombs4.png"
       }
     ]
   },
@@ -150,10 +150,6 @@
       },
       {
         "img": "images/golden.png",
-        "codes": "entry"
-      },
-      {
-        "img": "images/skybook.png",
         "codes": "entry"
       }
     ]
@@ -427,12 +423,12 @@
     "img": "images/hawkeye.png",
     "codes": "hawkeye"
   },
-  // Lanturn
+  // lantern
   {
-    "name": "Lanturn",
+    "name": "lantern",
     "type": "toggle",
-    "img": "images/lanturn.png",
-    "codes": "lanturn"
+    "img": "images/lantern.png",
+    "codes": "lantern"
   },
   // Golden Bugs
   {
@@ -512,13 +508,13 @@
     "codes": "heartcontainer,container,HC",
     "max_quantity": 8
   },
-  // Mailman's Letters
+  // Skybook Letters
   {
-    "name": "Postman",
+    "name": "Letters",
     "type": "consumable",
-    "img": "images/letters.png",
-    "codes": "postman",
-    "max_quantity": 16
+    "img": "images/skybook.png",
+    "codes": "letters",
+    "max_quantity": 7
   },
   // Wooden Sword
   {
