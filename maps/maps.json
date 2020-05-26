@@ -1,0 +1,26 @@
+﻿[
+  {
+    "name": "Main",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/overworld_map.png"
+  },
+  {
+    "name": "Poes",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/overworld_map.png"
+  },
+  {
+    "name": "Golden Bugs",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/overworld_map.png"
+  },
+  {
+    "name": "Shops",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/overworld_map.png"
+  }
+]

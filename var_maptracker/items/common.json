@@ -20,20 +20,14 @@
       }
     ]
   },
-
   // Bombs 1
   {
     "name": "Bombs",
     "type": "progressive",
-    "allow_disabled": false,
     "stages": [
       {
         "img": "images/bombbag.png",
-        "img_mods": "@disabled",
         "codes": "bombs1,bombbag1,bomb1"
-      },
-      {
-        "img": "images/bombbag.png"
       },
       {
         "img": "images/bomb.png"
@@ -50,15 +44,10 @@
   {
     "name": "Bombs",
     "type": "progressive",
-    "allow_disabled": false,
     "stages": [
       {
         "img": "images/bombbag.png",
-        "img_mods": "@disabled",
         "codes": "bombs2,bombbag2,bomb2"
-      },
-      {
-        "img": "images/bombbag.png"
       },
       {
         "img": "images/bomb.png"
@@ -75,24 +64,19 @@
   {
     "name": "Bombs",
     "type": "progressive",
-    "allow_disabled": false,
     "stages": [
       {
         "img": "images/giantbombbag.png",
-        "img_mods": "@disabled",
         "codes": "bombs3,bombbag3,bomb3"
       },
       {
-        "img": "images/giantbombbag.png"
+        "img": "images/GiantBombs2.png"
       },
       {
-        "img": "images/bomb.png"
+        "img": "images/GiantBombs3.png"
       },
       {
-        "img": "images/bomb-water.png"
-      },
-      {
-        "img": "images/bombling.png"
+        "img": "images/GiantBombs4.png"
       }
     ]
   },
@@ -127,7 +111,8 @@
         "codes": "rod"
       },
       {
-        "img": "images/earring.png"
+        "img": "images/earring.png",
+        "codes": "earring"
       }
     ]
   },
@@ -135,23 +120,18 @@
   {
     "name": "Temple Entry",
     "type": "progressive",
-    "allow_disabled": false,
     "stages": [
-      {
-        "img": "images/memo.png",
-        "img_mods": "@disabled"
-      },
       {
         "img": "images/memo.png",
         "codes": "entry"
       },
       {
         "img": "images/sketch.png",
-        "codes": "entry"
+        "codes": "entry2"
       },
       {
         "img": "images/golden.png",
-        "codes": "entry"
+        "codes": "entry3"
       }
     ]
   },
@@ -191,8 +171,7 @@
     "stages": [
       {
         "img": "images/letter.png",
-        "img_mods": "@disabled",
-        "codes": "charm"
+        "img_mods": "@disabled"
       },
       {
         "img": "images/letter.png",
@@ -431,21 +410,6 @@
     "img": "images/lantern.png",
     "codes": "lantern"
   },
-  // Ghost lantern
-  {
-    "name": "Ghost lantern",
-    "type": "toggle",
-    "img": "images/ghost.png",
-    "codes": "ghost"
-  },
-  // Stamps
-  {
-    "name": "Stamps",
-    "type": "consumable",
-    "img": "images/stamp.png",
-    "codes": "stamp",
-    "max_quantity": 50
-  },
   // Golden Bugs
   {
     "name": "Golden Bugs",
@@ -501,10 +465,12 @@
         "codes": "wallet"
       },
       {
-        "img": "images/bigwallet.png"
+        "img": "images/bigwallet.png",
+        "codes": "wallet2"
       },
       {
-        "img": "images/giantwallet.png"
+        "img": "images/giantwallet.png",
+        "codes": "wallet3"
       }
     ]
   },
@@ -524,7 +490,7 @@
     "codes": "heartcontainer,container,HC",
     "max_quantity": 8
   },
-  // Skybook Letters
+  //Skybook Letters
   {
     "name": "Letters",
     "type": "consumable",
@@ -549,7 +515,8 @@
         "codes": "sword3,mastersword,ms"
       },
       {
-        "img": "images/master-sword-light.png"
+        "img": "images/master-sword-light.png",
+        "codes": "sword4,buttersword"
       }
     ]
   },

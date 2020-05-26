@@ -1,0 +1,1039 @@
+[
+  {
+    "name": "Arbiter's Grounds",
+	"parent": "Desert Province",
+	"chest_unopened_img": "images/soul.png",
+	"chest_opened_img": "images/soul-grey.png",
+	"sections": 
+	[
+	  {
+	    "name": "1st Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3"
+		]
+	  },
+	  {
+	    "name": "2nd Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,cs"
+		]
+	  },
+	  {
+	    "name": "3rd Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3"
+		]
+	  },
+	  {
+	    "name": "4th Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,$can_smash"
+		]
+	  }
+	],
+	"map_locations": [
+	  {
+	    "map": "Poes",
+		"x": 179.96,
+		"y": 520
+	  }
+	]
+  },
+      {
+        "name": "Hyrule Castle Town",
+        "sections": [
+          {
+            "name": "Jovani",
+            "access_rules": [
+              "Shad3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 640,
+            "y": 510
+          }
+        ]
+      },
+	  {
+    "name": "Gerudo Desert",
+	"parent": "Desert Province",
+	"chest_unopened_img": "images/soul.png",
+	"chest_opened_img": "images/soul-grey.png",
+	"sections": 
+	[
+	  {
+	    "name": "Cave of Ordeals 17F Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,cs,spinner,bow"
+		]
+	  },
+	  {
+	    "name": "Cave of Ordeals 33F Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,cs,spinner,chainball,dominion,bow"
+		]
+	  },
+	  {
+	    "name": "Cave of Ordeals 44F Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,cs,spinner,chainball,dominion,dcs,bow"
+		]
+	  }
+	],
+	"map_locations": [
+	  {
+	    "map": "Poes",
+		"x": 171,
+		"y": 755
+	  }
+	]
+  },
+	  {
+    "name": "City in the Sky",
+	"parent": "Lanayru Province",
+	"chest_unopened_img": "images/soul.png",
+	"chest_opened_img": "images/soul-grey.png",
+	"sections": 
+	[
+	  {
+	    "name": "Poe on a little Island",
+		"item_count": 1,
+		"access_rules": [
+		  "dcs,sword3"
+		]
+	  },
+	  {
+	    "name": "Poe Outside of the Fan Room",
+		"item_count": 1,
+		"access_rules": [
+		  "dcs,sword3"
+		]
+	  }
+	],
+	"map_locations": [
+	  {
+	    "map": "Poes",
+		"x": 456,
+		"y": 632
+	  }
+	]
+  },
+      {
+        "name": "Death Mountain",
+        "sections": [
+          {
+            "name": "Death Mountain Night",
+            "access_rules": [
+              "shad3,sword3,shad2",
+			  "sword3,cs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 1030.92,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "Faron Woods",
+        "sections": [
+          {
+            "name": "Mist - Central Platform",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 615,
+            "y": 870
+          }
+        ]
+      },
+      {
+        "name": "Gerudo Desert",
+        "sections": [
+          {
+            "name": "Gerudo Desert Night Only",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 405,
+            "y": 755
+          }
+        ]
+      },
+      {
+        "name": "Gerudo Desert",
+        "sections": [
+          {
+            "name": "Gerudo Desert Night Only",
+            "access_rules": [
+              "cs,sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 170,
+            "y": 735
+          }
+        ]
+      },
+	  {
+    "name": "Gerudo Desert",
+	"parent": "Desert Province",
+	"chest_unopened_img": "images/soul.png",
+	"chest_opened_img": "images/soul-grey.png",
+	"sections": 
+	[
+	  {
+	    "name": "Poe before Grotto Night Only",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,cs"
+		]
+	  },
+	  {
+	    "name": "1st Poe in the Grotto",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,cs"
+		]
+	  },
+	  {
+	    "name": "2nd Poe in the Grotto",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,cs"
+		]
+	  }
+	],
+	"map_locations": [
+	  {
+	    "map": "Poes",
+		"x": 250,
+		"y": 636
+	  }
+	]
+  },
+      {
+        "name": "Gerudo Desert",
+        "sections": [
+          {
+            "name": "Gerudo Desert Only Night",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 160,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Gerudo Desert",
+        "sections": [
+          {
+            "name": "After KB3(King Bulblin)",
+            "access_rules": [
+              "sword3,"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 180,
+            "y": 565
+          }
+        ]
+      },
+      {
+        "name": "Gerudo Desert",
+        "sections": [
+          {
+            "name": "Before Arbiter's Grounds Night Only",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 180,
+            "y": 545
+          }
+        ]
+      },
+  {
+    "name": "Graveyard Night Only",
+	"parent": "Eldin Province",
+	"chest_unopened_img": "images/soul.png",
+	"chest_opened_img": "images/soul-grey.png",
+	"sections": 
+	[
+	  {
+	    "name": "Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3"
+		]
+	  },
+	  {
+	    "name": "Poe under the Tombstone",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3"
+		]
+	  }
+	],
+	"map_locations": [
+	  {
+	    "map": "Poes",
+		"x": 1010,
+		"y": 680
+	  }
+	]
+  },
+      {
+        "name": "North-East Hyrule Field",
+        "sections": [
+          {
+            "name": "Hidden Village Night Only (Reenter the Map to Reload the State)",
+            "access_rules": [
+              "charm,sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 845,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Hyrule Field: Outside Castle Town",
+        "sections": [
+          {
+            "name": "Outside Castle Town Only Night",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 700,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "Hyrule Field: Outside Castle Town",
+        "sections": [
+          {
+            "name": "Outside Castle Town Only Night",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 540,
+            "y": 535
+          }
+        ]
+      },
+      {
+        "name": "Eldin Gorge",
+        "sections": [
+          {
+            "name": "Eldin Gorge",
+            "access_rules": [
+              "sword3,shad3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 770,
+            "y": 660
+          }
+        ]
+      },
+      {
+        "name": "Eldin Gorge",
+        "sections": [
+          {
+            "name": "Eldin Gorge Longcave",
+            "access_rules": [
+              "sword3,lantern,$can_smash",
+			  "sword3,chainball"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 790,
+            "y": 715
+          }
+        ]
+      },
+      {
+        "name": "South Hyrule Field",
+        "sections": [
+          {
+            "name": "Hyrule Field Poe Only Night",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 671,
+            "y": 733
+          }
+        ]
+      },
+      {
+        "name": "North Hyrule Field",
+        "sections": [
+          {
+            "name": "Poe on Bridge Only Night",
+            "access_rules": [
+              "sword3,shad3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 651,
+            "y": 336
+          }
+        ]
+      },
+      {
+        "name": "North Hyrule Field",
+        "sections": [
+          {
+            "name": "Poes in Grotto",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 2,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 596,
+            "y": 355
+          }
+        ]
+      },
+      {
+        "name": "South Hyrule Field",
+        "sections": [
+          {
+            "name": "Poe at Stairs",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 630,
+            "y": 558
+          }
+        ]
+      },
+      {
+        "name": "West Hyrule Field",
+        "sections": [
+          {
+            "name": "Poe near Great Bridge of Hylia Night Only",
+            "access_rules": [
+              "sword3,cs,$shoot_pew",
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 533,
+            "y": 700
+          }
+        ]
+      },
+      {
+        "name": "Kakariko",
+        "sections": [
+          {
+            "name": "Poe near Bombshop Ruins Night Only",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 982,
+            "y": 647
+          }
+        ]
+      },
+      {
+        "name": "Kakariko",
+        "sections": [
+          {
+            "name": "Poe before Observation House Night Only",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 970,
+            "y": 636
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia",
+        "sections": [
+          {
+            "name": "Poe - Night Only",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 559,
+            "y": 633
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia",
+        "sections": [
+          {
+            "name": "Poe - Night Only",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 481,
+            "y": 684
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia",
+        "sections": [
+          {
+            "name": "Poe - Night Only",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 409,
+            "y": 664
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia",
+        "sections": [
+          {
+            "name": "Poe - Isle of Riches Night Only (Flight by Fowl)",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 469,
+            "y": 614
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia",
+        "sections": [
+          {
+            "name": "Poe - Under the Flight by Fowl",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 437,
+            "y": 584
+          }
+        ]
+      },
+	  {
+    "name": "Lake Hylia Longcave",
+	"parent": "Lanayru Province",
+	"chest_unopened_img": "images/soul.png",
+	"chest_opened_img": "images/soul-grey.png",
+	"sections": 
+	[
+	  {
+	    "name": "1st Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,$can_smash"
+		]
+	  },
+	  {
+	    "name": "2nd Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,$can_smash"
+		]
+	  },
+	  {
+	    "name": "3rd Poe",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,$can_smash"
+		]
+	  }
+	],
+	"map_locations": [
+	  {
+	    "map": "Poes",
+		"x": 462,
+		"y": 685
+	  }
+	]
+  },
+	  {
+    "name": "Temple of Time",
+	"parent": "Faron Province",
+	"chest_unopened_img": "images/soul.png",
+	"chest_opened_img": "images/soul-grey.png",
+	"sections": 
+	[
+	  {
+	    "name": "Poe 2nd Visit in the Grove",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,entry3,shad3"
+		]
+	  },
+	  {
+	    "name": "Poe (Master Sword Pedestal 2nd Visit)",
+		"item_count": 1,
+		"access_rules": [
+		  "sword3,entry3,shad3"
+		]
+	  }
+	],
+	"map_locations": [
+	  {
+	    "map": "Poes",
+		"x": 525,
+		"y": 851
+	  }
+	]
+  },
+      {
+        "name": "Sacred Grove",
+        "sections": [
+          {
+            "name": "Poe after getting the MS",
+            "access_rules": [
+              "sword3,$can_smash"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 504,
+            "y": 859
+          }
+        ]
+      },
+      {
+        "name": "Snowpeak",
+        "sections": [
+          {
+            "name": "Poe - Night Only",
+            "access_rules": [
+              "earring"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 536,
+            "y": 117
+          }
+        ]
+      },
+      {
+        "name": "Snowpeak",
+        "sections": [
+          {
+            "name": "Poe - Night Only",
+            "access_rules": [
+              "earring"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 498,
+            "y": 101
+          }
+        ]
+      },
+      {
+        "name": "Snowpeak",
+        "sections": [
+          {
+            "name": "Poe - Night Only",
+            "access_rules": [
+              "earring"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 477,
+            "y": 112
+          }
+        ]
+      },
+      {
+        "name": "Snowpeak",
+        "sections": [
+          {
+            "name": "Poe",
+            "access_rules": [
+              "earring,chainball"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 457,
+            "y": 143
+          }
+        ]
+      },
+      {
+        "name": "Snowpeak",
+        "sections": [
+          {
+            "name": "Poe - Night Only",
+            "access_rules": [
+              "earring"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 261,
+            "y": 394
+          }
+        ]
+      },
+  {
+    "name": "Snowpeak Ruins",
+	"parent": "Lanayru Province",
+	"chest_unopened_img": "images/soul.png",
+	"chest_opened_img": "images/soul-grey.png",
+	"sections": 
+	[
+	  {
+	    "name": "Poe Entrance Room",
+		"item_count": 1,
+		"access_rules": [
+		  "earring"
+		]
+	  },
+	  {
+	    "name": "Poe behind Armor (Entrance)",
+		"item_count": 1,
+		"access_rules": [
+		  "chainball,earring"
+		]
+	  },
+	  {
+	    "name": "Poe behind Ice Barrier",
+		"item_count": 1,
+		"access_rules": [
+		  "chainball,earring"
+		]
+	  }
+	],
+	"map_locations": [
+	  {
+	    "map": "Poes",
+		"x": 249,
+		"y": 355
+	  }
+	]
+  },
+	  {
+    "name": "Temple of Time",
+	"parent": "Faron Province",
+	"chest_unopened_img": "images/soul.png",
+	"chest_opened_img": "images/soul-grey.png",
+	"sections": 
+	[
+	  {
+	    "name": "Poe behind Gate",
+		"item_count": 1,
+		"access_rules": [
+		  "dominion,sword3"
+		]
+	  },
+	  {
+	    "name": "Poe (Giant Golden Balance Scale)",
+		"item_count": 1,
+		"access_rules": [
+		  "dominion,cs,sword3"
+		]
+	  },
+	  {
+	    "name": "Before entering the Temple Poe (Move the Owl Statue)",
+		"item_count": 1,
+		"access_rules": [
+		  "dominion,sword3"
+		]
+	  }
+	],
+	"map_locations": [
+	  {
+	    "map": "Poes",
+		"x": 524,
+		"y": 808
+	  }
+	]
+  },
+      {
+        "name": "Near Zora's Domain",
+        "sections": [
+          {
+            "name": "Poe - Night Only",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 768,
+            "y": 177
+          }
+        ]
+      },
+      {
+        "name": "Zora's Domain",
+        "sections": [
+          {
+            "name": "Poe - Night Only",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 654,
+            "y": 119
+          }
+        ]
+      },
+      {
+        "name": "Zora's Domain",
+        "sections": [
+          {
+            "name": "Poe - Night Only",
+            "access_rules": [
+              "sword3"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Poes",
+            "x": 663,
+            "y": 142
+          }
+        ]
+      }
+    ]
+  }
+]

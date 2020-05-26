@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Shopsanity",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/setting_shopsanity_no.png",
+        "codes": "setting_shopsanity,setting_shopsanity_no"
+      },
+      {
+        "img": "images/setting_shopsanity_yes.png",
+        "codes": "setting_shopsanity,setting_shopsanity_yes",
+        "inherit_codes": false
+      }
+    ]
+  }
+]
