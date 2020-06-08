@@ -114,6 +114,14 @@
         ]
       },
       {
+        "name": "Ooccoo",
+        "short_name": "Ooccoo",
+        "item_count": 1,
+        "access_rules": [
+          "lantern"
+        ]
+      },
+      {
         "name": "Windless Bridge Chest",
         "short_name": "Windless Bridge Chest",
         "item_count": 1,
@@ -270,6 +278,14 @@
         ]
       },
       {
+        "name": "Gor Amato Key Shard",
+        "short_name": "Gor Amato Key Shard",
+        "access_rules": [
+          "irons"
+        ],
+        "item_count": 1
+      },
+      {
         "name": "Dungeon Map Chest",
         "short_name": "Mines Map",
         "item_count": 1,
@@ -280,14 +296,6 @@
       {
         "name": "Gor Amato Small Chest",
         "short_name": "Gor Amato Small Chest",
-        "access_rules": [
-          "irons"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "Gor Amato Key Shard",
-        "short_name": "Gor Amato Key Shard",
         "access_rules": [
           "irons"
         ],
@@ -344,6 +352,14 @@
       {
         "name": "Gor Ebizo Small Chest",
         "short_name": "Gor Ebizo Small Chest",
+        "access_rules": [
+          "irons"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Ooccoo",
+        "short_name": "Ooccoo",
         "access_rules": [
           "irons"
         ],
@@ -469,6 +485,14 @@
       {
         "name": "Dungeon Map Chest",
         "short_name": "Map",
+        "access_rules": [
+          "$shoot_pew"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Ooccoo",
+        "short_name": "Ooccoo",
         "access_rules": [
           "$shoot_pew"
         ],
@@ -758,6 +782,14 @@
         "item_count": 1
       },
       {
+        "name": "Ooccoo",
+        "short_name": "Ooccoo",
+        "access_rules": [
+          "lantern, $can_smash, sword3, spinner"
+        ],
+        "item_count": 1
+      },
+      {
         "name": "Spinner Room First Small Chest",
         "access_rules": [
           "lantern, $can_smash, sword3, spinner"
@@ -842,6 +874,12 @@
       },
       {
         "name": "Dungeon Map",
+        "access_rules": [
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Ooccoo",
         "access_rules": [
         ],
         "item_count": 1
@@ -998,6 +1036,12 @@
         "item_count": 1
       },
       {
+        "name": "Ooccoo",
+        "access_rules": [
+        ],
+        "item_count": 1
+      },
+      {
         "name": "Armos Room Left Chest",
         "access_rules": [
           "spinner"
@@ -1118,6 +1162,12 @@
         "name": "Underwater Southeast Chest",
         "access_rules": [
           "irons"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Ooccoo in CitS Shop",
+        "access_rules": [
         ],
         "item_count": 1
       },
