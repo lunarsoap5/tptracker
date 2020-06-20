@@ -273,9 +273,9 @@
               "$can_smash,rang",
               "$can_smash,cs",
               "$can_smash,dcs",
-              "sword3,rang",
-              "sword3,cs",
-              "sword3,dcs"
+              "shadcrystal,rang",
+              "shadcrystal,cs",
+              "shadcrystal,dcs"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",
@@ -299,9 +299,9 @@
               "$can_smash,rang",
               "$can_smash,cs",
               "$can_smash,dcs",
-              "sword3,rang",
-              "sword3,cs",
-              "sword3,dcs"
+              "shadcrystal,rang",
+              "shadcrystal,cs",
+              "shadcrystal,dcs"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",
@@ -451,7 +451,7 @@
           {
             "name": "Male Dayfly",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",
@@ -472,7 +472,7 @@
           {
             "name": "Female Dayfly",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",
@@ -493,7 +493,7 @@
           {
             "name": "Male Snail",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",

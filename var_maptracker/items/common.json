@@ -498,12 +498,20 @@
     "codes": "letters",
     "max_quantity": 7
   },
-  // Wooden Sword
+  // Ordon Swords
   {
-    "name": "Wooden Sword",
-    "type": "toggle",
-    "img": "images/wooden-sword.png",
-    "codes": "sword1"
+    "name": "Ordon Swords",
+    "type": "Progressive",
+	"stages": [
+      {
+        "img": "images/wooden-sword.png",
+		"codes": "sword1"
+      },
+      {
+        "img": "images/ordon-sword.png",
+		"codes": "sword2"
+      }
+    ]
   },
   // Master Sword
   {
@@ -520,12 +528,12 @@
       }
     ]
   },
-  // Ordon Sword
+  // Shadow Crystal
   {
-    "name": "Ordon Sword",
+    "name": "Shadow Crystal",
     "type": "toggle",
-    "img": "images/ordon-sword.png",
-    "codes": "sword2"
+    "img": "images/shad-crystal.png",
+    "codes": "shadcrystal"
   },
   // Wooden Shield
   {

@@ -9,9 +9,17 @@
   // Bow
   {
     "name": "Bow",
-    "type": "toggle",
-    "img": "images/bow.png",
-    "codes": "bow"
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bow.png",
+        "codes": "bow"
+      },
+      {
+        "img": "images/bowquiver.png",
+        "codes": "bow"
+      }
+    ]
   },
   // Progressive Clawshot
   {
@@ -45,9 +53,17 @@
   // Dominion Rod
   {
     "name": "Dominion Rod",
-    "type": "toggle",
+    "type": "progressive",
+	"stages": [
+	{
+	"img": "images/brokedominion.png",
+	"codes": "brokedominion"
+	},
+	{
     "img": "images/dominion.png",
     "codes": "dominion"
+	}
+	]
   },
   // Fused Shadow 1
   {

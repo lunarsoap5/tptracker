@@ -687,7 +687,7 @@
     "name": "Arbiter's Grounds",
     "parent": "Gerudo Desert",
     "access_rules": [
-      "sword3"
+      "shadcrystal"
     ],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
@@ -706,7 +706,7 @@
       {
         "name": "East Redead Lower Small Chest",
         "access_rules": [
-          "lantern,sword3"
+          "lantern,shadcrystal"
         ],
         "item_count": 1
       },
@@ -769,7 +769,7 @@
       {
         "name": "North Turnable Chest",
         "access_rules": [
-          "lantern, $can_smash, sword3"
+          "lantern, $can_smash, shadcrystal"
         ],
         "item_count": 1
       },
@@ -777,7 +777,7 @@
         "name": "Spinner Chest",
         "short_name": "Spinner",
         "access_rules": [
-          "lantern, $can_smash, sword3"
+          "lantern, $can_smash, shadcrystal"
         ],
         "item_count": 1
       },
@@ -785,56 +785,56 @@
         "name": "Ooccoo",
         "short_name": "Ooccoo",
         "access_rules": [
-          "lantern, $can_smash, sword3, spinner"
+          "lantern, $can_smash, shadcrystal, spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room First Small Chest",
         "access_rules": [
-          "lantern, $can_smash, sword3, spinner"
+          "lantern, $can_smash, shadcrystal, spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room Second Small Chest",
         "access_rules": [
-          "lantern, $can_smash, sword3, spinner"
+          "lantern, $can_smash, shadcrystal, spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room Lower Central Small Chest",
         "access_rules": [
-          "lantern, $can_smash, sword3, spinner"
+          "lantern, $can_smash, shadcrystal, spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room Heart Piece Chest",
         "access_rules": [
-          "lantern, $can_smash, sword3, spinner"
+          "lantern, $can_smash, shadcrystal, spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room Lower North Chest",
         "access_rules": [
-          "lantern, $can_smash, sword3, spinner"
+          "lantern, $can_smash, shadcrystal, spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "lantern, $can_smash, sword3, spinner"
+          "lantern, $can_smash, shadcrystal, spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Stalord",
         "access_rules": [
-          "lantern, $can_smash, sword3, spinner"
+          "lantern, $can_smash, shadcrystal, spinner"
         ],
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
@@ -2252,28 +2252,28 @@
       {
         "name": "Outside Watchtower Small Chest",
         "access_rules": [
-          "sword3"
+          "shadcrystal"
         ],
         "item_count": 1
       },
       {
         "name": "Inner Tent Small Chest",
         "access_rules": [
-          "sword3"
+          "shadcrystal"
         ],
         "item_count": 1
       },
       {
         "name": "Cooked Boar Heart Piece",
         "access_rules": [
-          "sword3"
+          "shadcrystal"
         ],
         "item_count": 1
       },
       {
         "name": "Outside Arbiter's Grounds Lantern Chest",
         "access_rules": [
-          "sword3,lantern"
+          "shadcrystal,lantern"
         ],
         "item_count": 1
       }

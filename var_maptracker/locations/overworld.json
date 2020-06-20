@@ -35,7 +35,7 @@
                   {
                     "name": "Chest",
                     "access_rules": [
-                      "sword3,lantern"
+                      "shadcrystal,lantern"
                     ],
                     "item_count": 1
                   }
@@ -193,7 +193,7 @@
 				  {
                     "name": "Owl Statue Chest",
                     "access_rules": [
-                      "$can_smash,dominion,sword3"
+                      "$can_smash,dominion,shadcrystal"
                     ],
                     "item_count": 1
                   }
@@ -221,6 +221,14 @@
                       "shad3"
                     ],
                     "item_count": 1
+                  },
+                  {
+                    "name": "Shadow Crystal",
+                    "access_rules": [
+                      "shad3",
+                      "shadowcrystal"
+                    ],
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
@@ -237,7 +245,7 @@
                   {
                     "name": "Past Chest",
                     "access_rules": [
-                      "sword3,dominion"
+                      "shadcrystal,dominion"
                     ],
                     "item_count": 1
                   }
@@ -256,7 +264,7 @@
                   {
                     "name": "Deku Baba Chest",
                     "access_rules": [
-                      "sword3,$can_smash"
+                      "shadcrystal,$can_smash"
                     ],
                     "item_count": 1
                   }
@@ -344,7 +352,7 @@
           {
             "name": "Grotto - Chu, Baba and Keese",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 3
           }
@@ -478,14 +486,14 @@
 	    "name": "Grotto - Freestanding Chest",
 		"item_count": 1,
 		"access_rules": [
-		  "sword3"
+		  "shadcrystal"
 		]
 	  },
 	  {
 	    "name": "Grotto - Lantern Chest",
 		"item_count": 1,
 		"access_rules": [
-		  "sword3,lantern"
+		  "shadcrystal,lantern"
 		]
 	  }
 	],
@@ -503,7 +511,7 @@
           {
             "name": "Grotto - Water Bomb Fish Chest",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1
           }
@@ -541,7 +549,7 @@
           {
             "name": "Owl Statue Chest",
             "access_rules": [
-              "dominion,sword3"
+              "dominion,shadcrystal"
             ],
             "item_count": 1
           }
@@ -579,14 +587,14 @@
           {
             "name": "Grotto - Stalfos Chest",
             "access_rules": [
-              "spinner,sword3"
+              "spinner,shadcrystal"
             ],
             "item_count": 2
           },
 		  {
             "name": "Grotto - Stalfos Heart Piece Chest",
             "access_rules": [
-              "spinner,sword3,$can_smash"
+              "spinner,shadcrystal,$can_smash"
             ],
             "item_count": 1
           }
@@ -669,7 +677,7 @@
           {
             "name": "Grotto - Freezard Chest",
             "access_rules": [
-              "sword3,chainball,scent4"
+              "shadcrystal,chainball,scent4"
             ],
             "item_count": 1
           }
@@ -688,7 +696,7 @@
           {
             "name": "Frozen Lantern Chest",
             "access_rules": [
-              "sword3,lantern,chainball,scent4"
+              "shadcrystal,lantern,chainball,scent4"
             ],
             "item_count": 1
           }
@@ -707,7 +715,7 @@
           {
             "name": "Snowboard Racing",
             "access_rules": [
-              "sword3,lantern,chainball,scent4"
+              "shadcrystal,lantern,chainball,scent4"
             ],
             "item_count": 1
           }
@@ -734,7 +742,7 @@
                   {
                     "name": "Chest Under Waterfall",
                     "access_rules": [
-                      "sword3"
+                      "shadcrystal"
                     ],
                     "item_count": 1
                   }
@@ -772,7 +780,7 @@
               {
                 "name": "Underwater Chest - Light all 3 Torches",
                 "access_rules": [
-                  "lantern,irons,sword3",
+                  "lantern,irons,shadcrystal",
                   "lantern,irons,$can_smash"
                 ],
                 "item_count": 1
@@ -780,7 +788,7 @@
 			  {
                 "name": "Underwater Chest - Extinguish all 3 Torches",
                 "access_rules": [
-                  "rang,irons,sword3",
+                  "rang,irons,shadcrystal",
                   "rang,irons,$can_smash"
                 ],
                 "item_count": 1
@@ -871,7 +879,7 @@
               {
                 "name": "Fruit Minigame",
                 "access_rules": [
-                  "sword3,shad3"
+                  "shadcrystal,shad3"
                 ],
                 "item_count": 1
               }
@@ -890,7 +898,7 @@
               {
                 "name": "Grotto - Lantern Chest",
                 "access_rules": [
-                  "lantern,sword3"
+                  "lantern,shadcrystal"
                 ],
                 "item_count": 1
               }
@@ -972,7 +980,7 @@
                   {
                     "name": "Water Toadpoli Chest",
                     "access_rules": [
-                      "sword3,shad3,bow"
+                      "shadcrystal,shad3,bow"
                     ],
                     "item_count": 1
                   }
@@ -1066,7 +1074,7 @@
                   {
                     "name": "Helmasaur Chest",
                     "access_rules": [
-                      "sword3,cs"
+                      "shadcrystal,cs"
                     ],
                     "item_count": 1
                   }
@@ -1127,7 +1135,7 @@
           {
             "name": "Grotto - Bubble Chest",
             "access_rules": [
-              "$shoot_pew,cs,sword3"
+              "$shoot_pew,cs,shadcrystal"
             ],
             "item_count": 1
           },
@@ -1212,7 +1220,7 @@
 		  {
             "name": "Castle Pillar Chest",
             "access_rules": [
-              "cs,sword3"
+              "cs,shadcrystal"
             ],
             "item_count": 1
           },
@@ -1257,7 +1265,7 @@
           {
             "name": "Grotto - Tektite Chest",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1
           }
@@ -1276,7 +1284,7 @@
           {
             "name": "Grotto - Skulltula Chest",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1
           }
@@ -1295,7 +1303,7 @@
           {
             "name": "1st Freestanding Chest",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1
           }
@@ -1314,8 +1322,8 @@
           {
             "name": "Peahat Chest",
             "access_rules": [
-              "sword3,cs",
-              "sword3,dcs"
+              "shadcrystal,cs",
+              "shadcrystal,dcs"
             ],
             "item_count": 1
           }
@@ -1334,7 +1342,7 @@
           {
             "name": "2nd Freestanding Chest",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1
           }
@@ -1353,7 +1361,7 @@
           {
             "name": "Behind Gate Chest",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1
           }
@@ -1372,14 +1380,14 @@
           {
             "name": "Skybook Letter",
             "access_rules": [
-              "dominion,sword3"
+              "dominion,shadcrystal"
             ],
             "item_count": 1
           },
 		  {
             "name": "Owl Statue Chest",
             "access_rules": [
-              "dominion,sword3"
+              "dominion,shadcrystal"
             ],
             "item_count": 1
           }
@@ -1398,8 +1406,8 @@
           {
             "name": "3rd Freestanding Chest",
             "access_rules": [
-              "sword3,cs",
-              "sword3,dcs"
+              "shadcrystal,cs",
+              "shadcrystal,dcs"
             ],
             "item_count": 1
           }
@@ -1418,8 +1426,8 @@
           {
             "name": "Grotto - Boulder Lanter Chest",
             "access_rules": [
-              "cs,sword3,$can_smash,lantern",
-              "dcs,sword3,$can_smash,lantern"
+              "cs,shadcrystal,$can_smash,lantern",
+              "dcs,shadcrystal,$can_smash,lantern"
             ],
             "item_count": 1
           }
@@ -1438,7 +1446,7 @@
           {
             "name": "3 Freestanding Chest",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 3
           }
@@ -1457,7 +1465,7 @@
           {
             "name": "Freestanding Chest Behind Gate",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1
           }
@@ -1476,7 +1484,7 @@
           {
             "name": "Freestanding Chest",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1
           }
@@ -1495,7 +1503,7 @@
           {
             "name": "Freestanding Chest",
             "access_rules": [
-              "sword3"
+              "shadcrystal"
             ],
             "item_count": 1
           }
