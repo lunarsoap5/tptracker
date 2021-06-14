@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Faron Escape",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/FaronEscapeOff.png",
+        "codes": "FaronEscapeOff"
+      },
+      {
+        "img": "images/FaronEscapeOn.png",
+        "codes": "FaronEscape",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Twilight Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/TwilightSkipOff.png",
+        "codes": "TwilightSkipOff"
+      },
+      {
+        "img": "images/TwilightSkipOn.png",
+        "codes": "TwilightSkip",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Skip MDH",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/MDHSkipOff.png",
+        "codes": "MDHSkipOff"
+      },
+      {
+        "img": "images/MDHSkipOn.png",
+        "codes": "MDHSkip",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Skip Intro",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/SkipIntroOff.png",
+        "codes": "SkipIntroOff"
+      },
+      {
+        "img": "images/SkipIntroOn.png",
+        "codes": "SkipIntro",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early Desert",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/EarlyDesertOff.png",
+        "codes": "EarlyDesertOff"
+      },
+      {
+        "img": "images/EarlyDesertOn.png",
+        "codes": "EarlyDesert",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early CiTS",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/EarlyCiTSOff.png",
+        "codes": "EarlyCiTSOff"
+      },
+      {
+        "img": "images/EarlyCiTSOn.png",
+        "codes": "EarlyCiTS",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mines Patch",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/MinesPatchOff.png",
+        "codes": "MinesPatchOff"
+      },
+      {
+        "img": "images/MinesPatchOn.png",
+        "codes": "MinesPatch",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "No Shop Bottle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/NoShopBottleOff.png",
+        "codes": "NoShopBottleOff"
+      },
+      {
+        "img": "images/NoShopBottleOn.png",
+        "codes": "NoShopBottle",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Open Hyrule Castle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/EarlyHyruleOff.png",
+        "codes": "EarlyHyruleOff"
+      },
+      {
+        "img": "images/EarlyHyruleOn.png",
+        "codes": "EarlyHyrule",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Escort Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/EscortSkipOff.png",
+        "codes": "EscortSkipOff"
+      },
+      {
+        "img": "images/EscortSkipOn.png",
+        "codes": "EscortSkip",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early ToT",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/EarlyToTOff.png",
+        "codes": "EarlyToTOff"
+      },
+      {
+        "img": "images/EarlyToTOn.png",
+        "codes": "EarlyToT",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early PoT",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/EarlyPoTOff.png",
+        "codes": "EarlyPoTOff"
+      },
+      {
+        "img": "images/EarlyPoTOn.png",
+        "codes": "EarlyPoT",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

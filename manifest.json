@@ -1,7 +1,7 @@
 ﻿{
   "name": "Twilight Princess Item Tracker",
   "game_name": "Twilight Princess",
-  "package_version": "2.0",
+  "package_version": "2.1",
   "package_uid": "tptracker_lunar",
   "author": "Lunar Soap and Chrono Triggered | Keanu",
   "variants": {
@@ -13,6 +13,9 @@
     },
     "var_maptracker": {
       "display_name": "Map Tracker"
+    },
+    "var_maptracker_keysanity": {
+      "display_name": "Map Tracker (Keysanity)"
     }
   }
 }

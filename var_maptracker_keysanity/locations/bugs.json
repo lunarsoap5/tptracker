@@ -1,0 +1,533 @@
+[
+  {
+    "name": "World",
+    "chest_unopened_img": "images/Golden_Bug.png",
+    "chest_opened_img": "images/Golden_Bug-grey.png",
+    "children": [
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Bettle",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 643,
+            "y": 777
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Bettle",
+            "access_rules": [
+              "rang",
+              "cs",
+              "dcs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 688,
+            "y": 734
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Pill Bug",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 780,
+            "y": 670
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Pill Bug",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 818,
+            "y": 682
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Ant",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 1015,
+            "y": 674
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Ant",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 969,
+            "y": 656
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Grasshopper",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 895,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Grasshopper",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 800,
+            "y": 432
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Phasmid",
+            "access_rules": [
+              "rang",
+              "cs",
+              "dcs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 943,
+            "y": 414
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Phasmid",
+            "access_rules": [
+              "cs",
+              "boomerang"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 960,
+            "y": 333
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Mantis",
+            "access_rules": [
+              "rang",
+              "cs",
+              "dcs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 494,
+            "y": 578
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Mantis",
+            "access_rules": [
+              "rang",
+              "cs",
+              "dcs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 513,
+            "y": 677
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Dragonfly",
+            "access_rules": [
+              "$can_smash,rang",
+              "$can_smash,cs",
+              "$can_smash,dcs",
+              "shadcrystal,rang",
+              "shadcrystal,cs",
+              "shadcrystal,dcs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 666,
+            "y": 143
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Dragonfly",
+            "access_rules": [
+              "$can_smash,rang",
+              "$can_smash,cs",
+              "$can_smash,dcs",
+              "shadcrystal,rang",
+              "shadcrystal,cs",
+              "shadcrystal,dcs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 787,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Butterfly",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 559,
+            "y": 528
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Butterfly",
+            "access_rules": [
+              "rang",
+              "cs",
+              "dcs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 546,
+            "y": 481
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Stag Beetle",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 607,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Stag Beetle",
+            "access_rules": [
+              "rang",
+              "cs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 639,
+            "y": 306
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Ladybug",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 630,
+            "y": 565
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Ladybug",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 661,
+            "y": 577
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Dayfly",
+            "access_rules": [
+              "shadcrystal"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 273,
+            "y": 752
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Dayfly",
+            "access_rules": [
+              "shadcrystal"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 218,
+            "y": 740
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Male Snail",
+            "access_rules": [
+              "shadcrystal"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 529,
+            "y": 870
+          }
+        ]
+      },
+      {
+        "name": "Golden Bug",
+        "sections": [
+          {
+            "name": "Female Snail",
+            "access_rules": [
+              "$canAccessToT"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 509,
+            "y": 870
+          }
+        ]
+      }
+    ]
+  }
+]

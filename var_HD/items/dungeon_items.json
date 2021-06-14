@@ -1,28 +1,32 @@
 ﻿[
-  // Gale Boomerang
   {
     "name": "Boomerang",
     "type": "toggle",
     "img": "images/boomerang.png",
     "codes": "boomerang,rang"
   },
-  // Bow
   {
     "name": "Bow",
-    "type": "toggle",
-    "img": "images/bow.png",
-    "codes": "bow"
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bow.png",
+        "codes": "bow"
+      },
+      {
+        "img": "images/bow2.png",
+        "codes": "bow"
+      },
+      {
+        "img": "images/bow3.png",
+        "codes": "bow"
+      }
+    ]
   },
-  // Progressive Clawshot
   {
     "name": "Clawshot",
     "type": "progressive",
-    "allow_disabled": false,
     "stages": [
-      {
-        "img": "images/clawshot.png",
-        "img_mods": "@disabled"
-      },
       {
         "img": "images/clawshot.png",
         "codes": "clawshot,cs"
@@ -33,75 +37,92 @@
       }
     ]
   },
-  //Spinner
   {
     "name": "Spinner",
     "type": "toggle",
     "img": "images/spinner.png",
     "codes": "spinner"
   },
-  // Ball and Chain
   {
     "name": "Ball and Chain",
     "type": "toggle",
     "img": "images/chainball.png",
     "codes": "chainball"
   },
-  // Dominion Rod
   {
     "name": "Dominion Rod",
-    "type": "toggle",
-    "img": "images/dominion.png",
-    "codes": "dominion"
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/brokendominion.png",
+        "codes": "brokendominion"
+      },
+      {
+        "img": "images/dominion.png",
+        "codes": "dominion"
+      }
+    ]
   },
-  // Fused Shadow 1
   {
     "name": "Shadow 1",
     "type": "toggle",
     "img": "images/shadow1.png",
     "codes": "shad1"
   },
-  // Fused Shadow 2
   {
     "name": "Shadow 2",
     "type": "toggle",
     "img": "images/shadow2.png",
     "codes": "shad2"
   },
-  // Fused Shadow 3
   {
     "name": "Shadow 3",
     "type": "toggle",
     "img": "images/shadow3.png",
     "codes": "shad3"
   },
-  // Mirror Shard 1
   {
-    "name": "Mirror Shard 1",
-    "type": "toggle",
-    "img": "images/shard1.png",
-    "codes": "shard1"
+    "name": "Shadows",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/shadow1.png",
+        "codes": "shadow1"
+      },
+      {
+        "img": "images/shadow2.png",
+        "codes": "shadow2"
+      },
+      {
+        "img": "images/shadow3.png",
+        "codes": "shadow3"
+      },
+      {
+        "img": "images/shadow4.png",
+        "codes": "shadow4"
+      }
+    ]
   },
-  // Mirror Shard 2
   {
-    "name": "Mirror Shard 2",
-    "type": "toggle",
-    "img": "images/shard2.png",
-    "codes": "shard2"
-  },
-  // Mirror Shard 3
-  {
-    "name": "Mirror Shard 3",
-    "type": "toggle",
-    "img": "images/shard3.png",
-    "codes": "shard3"
-  },
-  // Mirror Shard 4
-  {
-    "name": "Mirror Shard 4",
-    "type": "toggle",
-    "img": "images/shard4.png",
-    "codes": "shard4"
+    "name": "Shards",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/shard1.png",
+        "codes": "shard1"
+      },
+      {
+        "img": "images/shard2.png",
+        "codes": "shard2"
+      },
+      {
+        "img": "images/shard3.png",
+        "codes": "shard3"
+      },
+      {
+        "img": "images/shard4.png",
+        "codes": "shard4"
+      }
+    ]
   }
-
 ]

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\var_maptracker",
+    "\\var_maptracker\\items",
+    "\\var_maptracker\\layouts",
+    "\\var_maptracker\\locations",
+    "\\var_maptracker\\scripts"
+  ],
+  "SelectedNode": "\\var_maptracker\\layouts\\item_grids.json",
+  "PreviewInSolutionExplorer": false
+}

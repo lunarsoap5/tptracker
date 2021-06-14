@@ -10,7 +10,8 @@
         "short_name": "Wooden Sword",
         "item_count": 1,
         "access_rules": [
-          "rod"
+          "rod",
+          "SkipIntro"
         ]
       },
       {
@@ -32,7 +33,8 @@
         "name": "Sera's Bottle",
         "short_name": "Bottle 1",
         "access_rules": [
-          "rod"
+          "rod",
+          "SkipIntro"
         ],
         "chest_unopened_img": "images/bottle-empty.png",
         "chest_opened_img": "images/bottle-grey.png",
@@ -42,7 +44,8 @@
         "name": "Slingshot",
         "short_name": "Slingshot",
         "access_rules": [
-          "rod"
+          "rod",
+          "SkipIntro"
         ],
         "item_count": 1,
         "chest_unopened_img": "images/slingshot.png",
@@ -53,19 +56,33 @@
         "short_name": "Ordon Shield",
         "chest_unopened_img": "images/ordon-shield.png",
         "chest_opened_img": "images/ordon-shield-grey.png",
-        "item_count": 1
+        "item_count": 1,
+        "access_rules": [
+          "$can_do_damage",
+          "SkipIntro"
+        ]
       },
       {
         "name": "Ordon Sword",
         "short_name": "Ordon Sword",
         "chest_unopened_img": "images/ordon-sword.png",
         "chest_opened_img": "images/ordon-sword-grey.png",
-        "item_count": 1
+        "item_count": 1,
+        "access_rules": [
+          "$can_do_damage",
+          "SkipIntro"
+        ]
       },
       {
         "name": "Iron Boots Chest",
         "short_name": "Iron Boots",
-        "item_count": 1
+        "item_count": 1,
+        "access_rules": [
+          "$can_do_damage, vessel1",
+          "$can_do_damage, TwilightSkip",
+          "SkipIntro, vessel1",
+          "SkipIntro, TwilightSkip"
+        ]
       }
     ],
     "map_locations": [
@@ -90,11 +107,7 @@
         "short_name": "Entrance Vines",
         "item_count": 1,
         "access_rules": [
-          "$canAccessForest, bow",
-          "$canAccessForest, slingshot",
-          "$canAccessForest, clawshot",
-          "$canAccessForest, boomerang",
-          "$canAccessForest, chainball"
+          "$has_ranged_item"
         ]
       },
       {
@@ -102,7 +115,7 @@
         "short_name": "Lobby Behind Stairs",
         "item_count": 1,
         "access_rules": [
-          "lantern"
+          "boomerang, $can_do_damage"
         ]
       },
       {
@@ -110,7 +123,7 @@
         "short_name": "Forest Map",
         "item_count": 1,
         "access_rules": [
-          "lantern"
+          "lantern, $can_do_damage"
         ]
       },
       {
@@ -118,7 +131,7 @@
         "short_name": "Ooccoo",
         "item_count": 1,
         "access_rules": [
-          "lantern"
+          "$can_do_damage"
         ]
       },
       {
@@ -126,7 +139,7 @@
         "short_name": "Windless Bridge Chest",
         "item_count": 1,
         "access_rules": [
-          "lantern"
+          "$can_burn_webs, $can_do_damage"
         ]
       },
       {
@@ -134,7 +147,7 @@
         "short_name": "Second Monkey Chest",
         "item_count": 1,
         "access_rules": [
-          "lantern"
+          "$can_burn_webs, $can_do_damage"
         ]
       },
       {
@@ -142,7 +155,7 @@
         "short_name": "Totem Pole Chest",
         "item_count": 1,
         "access_rules": [
-          "lantern"
+          "$can_burn_webs, $can_do_damage"
         ]
       },
       {
@@ -150,7 +163,7 @@
         "short_name": "West Tile Worm Small Chest",
         "item_count": 1,
         "access_rules": [
-          "lantern"
+          "$can_burn_webs, $can_do_damage"
         ]
       },
       {
@@ -158,18 +171,14 @@
         "short_name": "Deku Like PoH",
         "item_count": 1,
         "access_rules": [
-          "lantern"
+          "$can_burn_webs, $can_do_damage"
         ]
       },
       {
         "name": "Big Baba Small Key",
         "short_name": "Baba Small Key",
         "access_rules": [
-          "$canAccessForest, bow",
-          "$canAccessForest, slingshot",
-          "$canAccessForest, clawshot",
-          "$canAccessForest, boomerang",
-          "$canAccessForest, chainball"
+          "$can_burn_webs, $can_do_damage, $has_ranged_item"
         ],
         "item_count": 1
       },
@@ -177,11 +186,7 @@
         "name": "Gale Boomerang",
         "short_name": "Boomerang",
         "access_rules": [
-          "$canAccessForest, bow",
-          "$canAccessForest, slingshot",
-          "$canAccessForest, clawshot",
-          "$canAccessForest, boomerang",
-          "$canAccessForest, chainball"
+          "$can_burn_webs, $can_do_damage, $has_ranged_item"
         ],
         "chest_unopened_img": "images/boomerang.png",
         "chest_opened_img": "images/boomerang-grey.png",
@@ -191,7 +196,7 @@
         "name": "West Tile Worm Heart Piece",
         "short_name": "West Tile Worm Heart Piece",
         "access_rules": [
-          "boomerang,lantern"
+          "$can_burn_webs, $can_do_damage, boomerang"
         ],
         "item_count": 1
       },
@@ -199,7 +204,10 @@
         "name": "Compass Chest",
         "short_name": "Forest Compass",
         "access_rules": [
-          "boomerang","cs","chainball"
+          "$can_do_damage, boomerang",
+          "$can_do_damage, cs",
+          "$can_do_damage, chainball",
+          "$can_do_damage, bow"
         ],
         "item_count": 1
       },
@@ -207,7 +215,7 @@
         "name": "Big Key Chest",
         "short_name": "Forest Big Key",
         "access_rules": [
-          "boomerang,lantern"
+          "$can_burn_webs, $can_do_damage, boomerang"
         ],
         "item_count": 1
       },
@@ -215,7 +223,7 @@
         "name": "Water Cave Near Big Key",
         "short_name": "Water Cave Near Big Key",
         "access_rules": [
-          "lantern"
+          "$can_burn_webs, $can_do_damage"
         ],
         "item_count": 1
       },
@@ -223,7 +231,7 @@
         "name": "North Deku Like Chest",
         "short_name": "North Deku Like Chest",
         "access_rules": [
-          "boomerang,lantern"
+          "$can_burn_webs, $can_do_damage, boomerang"
         ],
         "item_count": 1
       },
@@ -231,7 +239,7 @@
         "name": "East Tile Worm Chest",
         "short_name": "East Tile Worm Chest",
         "access_rules": [
-          "boomerang,lantern"
+          "$can_burn_webs, $can_do_damage, boomerang"
         ],
         "item_count": 1
       },
@@ -239,7 +247,7 @@
         "name": "Diababa",
         "short_name": "Diababa",
         "access_rules": [
-          "boomerang,lantern"
+          "$can_burn_webs, $can_do_damage, boomerang"
         ],
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC-grey.png",
@@ -377,7 +385,7 @@
         "name": "Bow Chest",
         "short_name": "Bow Chest",
         "access_rules": [
-          "irons"
+          "irons, $can_do_damage"
         ],
         "item_count": 1
       },
@@ -385,7 +393,7 @@
         "name": "Compass Chest",
         "short_name": "Mines Compass",
         "access_rules": [
-          "irons, bow"
+          "irons, $can_do_damage, bow"
         ],
         "item_count": 1
       },
@@ -393,7 +401,7 @@
         "name": "Gor Liggs Key Shard",
         "short_name": "Gor Liggs Key Shard",
         "access_rules": [
-          "irons, bow"
+          "irons, $can_do_damage, bow"
         ],
         "item_count": 1
       },
@@ -401,7 +409,7 @@
         "name": "Gor Liggs Chest",
         "short_name": "Gor Liggs Chest",
         "access_rules": [
-          "irons, bow"
+          "irons, $can_do_damage, bow"
         ],
         "item_count": 1
       },
@@ -409,7 +417,7 @@
         "name": "Main Magnet Room Top Chest",
         "short_name": "Main Magnet Room Top Chest",
         "access_rules": [
-          "irons, bow"
+          "irons, $can_do_damage, bow"
         ],
         "item_count": 1
       },
@@ -432,7 +440,7 @@
       {
         "name": "Fryus",
         "access_rules": [
-          "irons,bow"
+          "irons, $can_do_damage, bow"
         ],
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
@@ -550,15 +558,7 @@
         "name": "Clawshot Chest",
         "short_name": "Clawshot",
         "access_rules": [
-          "$shoot_pew"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "West Chest next to Water Wheel",
-        "short_name": "West Chest next to water wheel",
-        "access_rules": [
-          "$can_smash"
+          "$shoot_pew, $can_do_damage"
         ],
         "item_count": 1
       },
@@ -670,7 +670,8 @@
         "name": "Morpheel",
         "short_name": "Morpheel",
         "access_rules": [
-          "$shoot_pew, clawshot"
+          "$shoot_pew, clawshot, sword3",
+          "$shoot_pew, clawshot, sword1"
         ],
         "item_count": 1
       }
@@ -687,13 +688,20 @@
     "name": "Arbiter's Grounds",
     "parent": "Gerudo Desert",
     "access_rules": [
-      "shadcrystal"
+      "$canAccessArbiters"
     ],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "sections": [
       {
         "name": "Entrance Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Poe Scent",
+        "access_rules": [
+          "lantern, shadcrystal"
+        ],
         "item_count": 1
       },
       {
@@ -706,14 +714,14 @@
       {
         "name": "East Redead Lower Small Chest",
         "access_rules": [
-          "lantern,shadcrystal"
+          "lantern,shadcrystal, poescent"
         ],
         "item_count": 1
       },
       {
         "name": "Compass Chest",
         "access_rules": [
-          "lantern"
+          "lantern,shadcrystal, poescent"
         ],
         "item_count": 1
       },
@@ -727,57 +735,49 @@
       {
         "name": "East Upper Turnable Redead Chest",
         "access_rules": [
-          "lantern"
+          "lantern,shadcrystal, poescent"
         ],
         "item_count": 1
       },
       {
         "name": "Ghoul Rat Chest",
         "access_rules": [
-          "lantern"
+          "lantern,shadcrystal, poescent"
         ],
         "item_count": 1
       },
       {
         "name": "West Small Chest Behind Block",
         "access_rules": [
-          "lantern"
+          "lantern,shadcrystal, poescent"
         ],
         "item_count": 1
       },
       {
         "name": "West Chandelier Chest",
         "access_rules": [
-          "lantern"
+          "lantern,shadcrystal, poescent"
         ],
         "item_count": 1
       },
       {
         "name": "Stalfos West Small Chest",
         "access_rules": [
-          "lantern"
+          "lantern,shadcrystal, poescent"
         ],
         "item_count": 1
       },
       {
         "name": "Stalfos Northeast Small Chest",
         "access_rules": [
-          "lantern"
+          "lantern,shadcrystal, poescent"
         ],
         "item_count": 1
       },
       {
         "name": "North Turnable Chest",
         "access_rules": [
-          "lantern, $can_smash, shadcrystal"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "Spinner Chest",
-        "short_name": "Spinner",
-        "access_rules": [
-          "lantern, $can_smash, shadcrystal"
+          "lantern, $can_smash, shadcrystal, poescent, clawshot"
         ],
         "item_count": 1
       },
@@ -785,56 +785,64 @@
         "name": "Ooccoo",
         "short_name": "Ooccoo",
         "access_rules": [
-          "lantern, $can_smash, shadcrystal, spinner"
+          "lantern, $can_smash, shadcrystal, poescent, clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Spinner Chest",
+        "short_name": "Spinner",
+        "access_rules": [
+          "lantern, $can_smash, shadcrystal, poescent, clawshot"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room First Small Chest",
         "access_rules": [
-          "lantern, $can_smash, shadcrystal, spinner"
+          "lantern, $can_smash, shadcrystal, spinner, poescent, clawshot"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room Second Small Chest",
         "access_rules": [
-          "lantern, $can_smash, shadcrystal, spinner"
+          "lantern, $can_smash, shadcrystal, spinner, poescent, clawshot"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room Lower Central Small Chest",
         "access_rules": [
-          "lantern, $can_smash, shadcrystal, spinner"
+          "lantern, $can_smash, shadcrystal, spinner, poescent, clawshot"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room Heart Piece Chest",
         "access_rules": [
-          "lantern, $can_smash, shadcrystal, spinner"
+          "lantern, $can_smash, shadcrystal, spinner, poescent, clawshot"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room Lower North Chest",
         "access_rules": [
-          "lantern, $can_smash, shadcrystal, spinner"
+          "lantern, $can_smash, shadcrystal, spinner, poescent, clawshot"
         ],
         "item_count": 1
       },
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "lantern, $can_smash, shadcrystal, spinner"
+          "lantern, $can_smash, shadcrystal, spinner, poescent, clawshot"
         ],
         "item_count": 1
       },
       {
         "name": "Stalord",
         "access_rules": [
-          "lantern, $can_smash, shadcrystal, spinner"
+          "lantern, $can_smash, shadcrystal, spinner, poescent, clawshot"
         ],
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
@@ -853,7 +861,7 @@
     "name": "Snowpeak Ruins",
     "parent": "Snowpeak Mountain",
     "access_rules": [
-      "earring"
+      "$canAccessSnowpeakRuins"
     ],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
@@ -893,30 +901,45 @@
       {
         "name": "Courtyard Open Chest",
         "access_rules": [
+          "chainball"
         ],
         "item_count": 1
       },
       {
         "name": "Ordon Pumpkin Chest",
         "access_rules": [
+          "bow",
+          "spinner",
+          "sword1",
+          "sword3",
+          "irons",
+          "chainball"
         ],
         "item_count": 1
       },
       {
-        "name": "Courtyard Buried Small Chest",
+        "name": "West Courtyard Buried Small Chest",
         "access_rules": [
+          "bow",
+          "spinner",
+          "sword1",
+          "sword3",
+          "irons",
+          "chainball"
         ],
         "item_count": 1
       },
       {
         "name": "Wooden Beam Room Small Chest",
         "access_rules": [
+          "$can_smash"
         ],
         "item_count": 1
       },
       {
         "name": "Compass Chest",
         "access_rules": [
+          "$can_smash"
         ],
         "item_count": 1
       },
@@ -930,21 +953,21 @@
       {
         "name": "Ball and Chain",
         "access_rules": [
-          "$can_smash"
+          "$can_smash, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Goat Cheese Chest",
         "access_rules": [
-          "chainball"
+          "chainball, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "West Breakable Floor Heart Piece",
         "access_rules": [
-          "chainball"
+          "chainball, $can_smash"
         ],
         "item_count": 1
       },
@@ -1032,6 +1055,7 @@
       {
         "name": "Dungeon Map Chest",
         "access_rules": [
+          "$can_do_damage"
         ],
         "item_count": 1
       },
@@ -1044,91 +1068,91 @@
       {
         "name": "Armos Room Left Chest",
         "access_rules": [
-          "spinner"
+          "spinner, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Compass Chest",
         "access_rules": [
-          "spinner"
+          "spinner, $can_do_damage, bow"
         ],
         "item_count": 1
       },
       {
         "name": "Scale Room Spider Chest",
         "access_rules": [
-          "spinner"
+          "spinner, $can_do_damage, bow"
         ],
         "item_count": 1
       },
       {
         "name": "Third Stair Swinging Gilloutine Chest",
         "access_rules": [
-          "spinner"
+          "spinner, $can_do_damage, bow"
         ],
         "item_count": 1
       },
       {
         "name": "Third Stair Window Chest",
         "access_rules": [
-          "spinner"
+          "spinner, $can_do_damage, bow"
         ],
         "item_count": 1
       },
       {
         "name": "Dominion Rod",
         "access_rules": [
-          "spinner"
+          "spinner, $can_do_damage, bow"
         ],
         "item_count": 1
       },
       {
         "name": "Scale Room Upper Chest",
         "access_rules": [
-          "spinner, dominion"
+          "spinner, $can_do_damage, bow, clawshot"
         ],
         "item_count": 1
       },
       {
         "name": "Helmasaur Room Small Chest",
         "access_rules": [
-          "spinner, dominion"
+          "spinner, $can_do_damage, bow, clawshot"
         ],
         "item_count": 1
       },
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "spinner, dominion"
+          "spinner, $can_do_damage, bow, clawshot"
         ],
         "item_count": 1
       },
       {
         "name": "Second Stair Heart Piece Chest",
         "access_rules": [
-          "spinner, dominion"
+          "spinner, $can_do_damage, bow, brokendominion"
         ],
         "item_count": 1
       },
       {
         "name": "Armos Room South Chest",
         "access_rules": [
-          "spinner"
+          "spinner, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Armos Room Heart Piece Chest",
         "access_rules": [
-          "spinner, dominion"
+          "spinner, $can_do_damage, brokendominion"
         ],
         "item_count": 1
       },
       {
         "name": "Armagohma",
         "access_rules": [
-          "spinner, dominion"
+          "spinner, $can_do_damage, brokendominion, bow"
         ],
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
@@ -1174,42 +1198,44 @@
       {
         "name": "West First Chest",
         "access_rules": [
-          "spinner"
+          "dcs",
+          "bow, spinner",
+          "cs, spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Dungeon Map Chest",
         "access_rules": [
-          "spinner, irons"
+          "cs, spinner"
         ],
         "item_count": 1
       },
       {
         "name": "East Tile Worm Small Chest",
         "access_rules": [
-          "spinner, irons"
+          "cs, spinner, boomerang"
         ],
         "item_count": 1
       },
       {
         "name": "East After Dinalfos Small Chest",
         "access_rules": [
-          "spinner, irons"
+          "cs, spinner, $can_do_damage, boomerang"
         ],
         "item_count": 1
       },
       {
         "name": "East After Dinalfos Chest",
         "access_rules": [
-          "spinner, irons"
+          "cs, spinner, $can_do_damage, boomerang"
         ],
         "item_count": 1
       },
       {
         "name": "Double Clawshot",
         "access_rules": [
-          "spinner, irons"
+          "cs, spinner, $can_do_damage, boomerang"
         ],
         "item_count": 1
       },
@@ -1223,112 +1249,112 @@
       {
         "name": "West Baba Serpent Alcove Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "West Narrow Ledge Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "West Tile Worm Small Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "Big Baba Tower West Small Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "Big Baba Tower North Small Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "Big Baba Tower Heart Piece Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "West Gardens Small Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "West Gardens Poe Island Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "West Gardens Lower Small Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "West Gardens Heart Piece Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "Central Outside Small Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs,shadcrystal"
         ],
         "item_count": 1
       },
       {
         "name": "Central Outside Poe Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs, shadcrystal"
         ],
         "item_count": 1
       },
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs, shadcrystal"
         ],
         "item_count": 1
       },
       {
         "name": "Central Upper Small Chest",
         "access_rules": [
-          "spinner, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "North Fan Chest",
         "access_rules": [
-          "spinner, irons, dcs"
+          "dcs"
         ],
         "item_count": 1
       },
       {
         "name": "Argorok",
         "access_rules": [
-          "spinner, irons, dcs"
+          "irons, dcs, sword3"
         ],
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC_grey.png",
@@ -1354,12 +1380,15 @@
     "sections": [
       {
         "name": "West First Room Central Chest",
+        "access_rules": [
+          "$can_do_damage"
+        ],
         "item_count": 1
       },
       {
         "name": "West First Room Heart Piece Chest",
         "access_rules": [
-          "cs"
+          "cs, sword4"
         ],
         "item_count": 1
       },
@@ -1491,193 +1520,202 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "$canAccessPoT,boomerang,dcs,sword4,irons,zoratunic,chainball"
+      "$canAccessHyrule"
     ],
     "sections": [
       {
         "name": "Graveyard Grave Switch Room Right Chest",
         "access_rules": [
-          "$has_explosives"
+          "$has_explosives, shadcrystal, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Graveyard Grave Switch Room Front Left Small Chest",
         "access_rules": [
-          "$has_explosives"
+          "$has_explosives, shadcrystal, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Graveyard Grave Switch Room Back Left Small Chest",
         "access_rules": [
-          "$has_explosives"
+          "$has_explosives, shadcrystal, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Graveyard Owl Statue Chest",
         "access_rules": [
-          "$has_explosives,lantern,dominion"
+          "$has_explosives,lantern,dominion, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Dungeon Map Chest",
         "access_rules": [
-          "boomerang"
+          "boomerang, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "East Castle Balcony Chest",
         "access_rules": [
-          "boomerang"
+          "boomerang, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "West Courtyard Northern Small Chest",
+        "access_rules": [
+          "$can_do_damage"
+        ],
         "item_count": 1
       },
       {
         "name": "West Courtyard Central Small Chest",
+        "access_rules": [
+          "$can_do_damage"
+        ],
         "item_count": 1
       },
       {
         "name": "King Bublin Key",
+        "access_rules": [
+          "$can_do_damage"
+        ],
         "item_count": 1
       },
       {
         "name": "Compass Chest",
         "access_rules": [
-          "cs"
+          "cs, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Lantern Staircase Chest",
         "access_rules": [
-          "dcs,boomerang,lantern"
+          "dcs,boomerang,lantern, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Main Hall Southwest Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern"
+          "dcs, boomerang, lantern, bow, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Main Hall Northwest Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern"
+          "dcs,boomerang,lantern, bow, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Southeast Balcony Tower Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern"
+          "dcs,boomerang,lantern, bow, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern"
+          "dcs,boomerang,lantern, bow, $can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room First Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Second Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Third Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Fourth Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Fifth Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern, spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage, spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room First Small Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Second Small Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Third Small Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Fourth Small Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Fifth Small Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Sixth Small Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Seventh Small Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "Treasure Room Eighth Small Chest",
         "access_rules": [
-          "dcs,boomerang,lantern, bow, lantern,spinner"
+          "dcs,boomerang,lantern, bow, $can_do_damage,spinner"
         ],
         "item_count": 1
       }
@@ -1695,27 +1733,42 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "$can_smash"
+      "$can_smash, $can_access_lake_hylia"
     ],
     "sections": [
       {
         "name": "First Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Second Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Third Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Fourth Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Fifth Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
@@ -1727,34 +1780,58 @@
       },
       {
         "name": "Seventh Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Eighth Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Nineth Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Tenth Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Eleventh Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Twelfth Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Thirteenth Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
         "name": "Fourteenth Chest",
+        "access_rules": [
+          "lantern"
+        ],
         "item_count": 1
       },
       {
@@ -1778,27 +1855,27 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "cs"
+      "cs, $can_access_eldin_field"
     ],
     "sections": [
       {
         "name": "Dodongo Chest",
         "access_rules": [
-          "cs,irons"
+          "irons"
         ],
         "item_count": 1
       },
       {
         "name": "Lantern Chest",
         "access_rules": [
-          "cs,irons, lantern"
+          "irons, lantern"
         ],
         "item_count": 1
       },
       {
         "name": "Heart Piece Chest",
         "access_rules": [
-          "cs,irons, lantern"
+          "irons, lantern"
         ],
         "item_count": 1
       }
@@ -1815,6 +1892,9 @@
     "name": "Kakariko Village",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$can_access_kak_village"
+    ],
     "sections": [
       {
         "name": "Inn Small Chest",
@@ -1823,7 +1903,7 @@
       {
         "name": "Barnes' Bomb Bag",
         "access_rules": [
-          "shad2"
+          "boss2"
         ],
         "item_count": 1
       },
@@ -1862,42 +1942,43 @@
       {
         "name": "Archery Heart Piece",
         "access_rules": [
-          "$can_smash, irons"
+          "bow, boss2"
         ],
         "item_count": 1
       },
       {
         "name": "Hylian Shield",
         "access_rules": [
-          "shad1"
+          "$eldin_twilight_cleared"
         ],
         "item_count": 1
       },
       {
         "name": "Hawkeye",
         "access_rules": [
-          "shield3"
+          "boss2, bow"
         ],
         "item_count": 1
       },
       {
         "name": "Zora Armor",
         "access_rules": [
-          "lantern,irons,boomerang,bow,$has_explosives"
+          "boomerang,bow, $can_access_castle_town",
+          "EscortSkip"
         ],
         "item_count": 1
       },
       {
         "name": "Coral Earring",
         "access_rules": [
-          "entry2"
+          "sketch"
         ],
         "item_count": 1
       },
       {
         "name": "Renado's Letter",
         "access_rules": [
-          "shard3"
+          "boss6"
         ],
         "item_count": 1
       },
@@ -1921,6 +2002,9 @@
     "name": "Lanayru Spring",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$can_access_lake_hylia"
+    ],
     "sections": [
       {
         "name": "Underwater Left Small Chest",
@@ -1984,6 +2068,9 @@
     "name": "Hyrule Castle Town",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$can_access_castle_town"
+    ],
     "sections": [
       {
         "name": "East Small Chest",
@@ -1994,9 +2081,6 @@
       },
       {
         "name": "Magic Armor",
-        "access_rules": [
-          "wallet2, lantern, irons, boomerang, bow, $has_explosives"
-        ],
         "item_count": 1
       },
       {
@@ -2027,7 +2111,7 @@
       {
         "name": "Invoice",
         "access_rules": [
-          "entry2"
+          "letter"
         ],
         "item_count": 1
       },
@@ -2212,25 +2296,28 @@
     "name": "Kakariko Gorge Lantern Cave",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$can_access_kak_gorge, $can_smash"
+    ],
     "sections": [
       {
         "name": "First Chest",
         "access_rules": [
-          "$can_smash,lantern"
+          "$can_burn_webs"
         ],
         "item_count": 1
       },
       {
         "name": "Second Chest",
         "access_rules": [
-          "$can_smash,lantern"
+          "$can_burn_webs"
         ],
         "item_count": 1
       },
       {
         "name": "Heart Piece Chest",
         "access_rules": [
-          "$can_smash,lantern"
+          "lantern"
         ],
         "item_count": 1
       }
@@ -2248,32 +2335,29 @@
     "name": "Bublin Camp",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$can_access_desert"
+    ],
     "sections": [
       {
         "name": "Outside Watchtower Small Chest",
-        "access_rules": [
-          "shadcrystal"
-        ],
         "item_count": 1
       },
       {
         "name": "Inner Tent Small Chest",
-        "access_rules": [
-          "shadcrystal"
-        ],
         "item_count": 1
       },
       {
         "name": "Cooked Boar Heart Piece",
         "access_rules": [
-          "shadcrystal"
+          "$can_do_damage"
         ],
         "item_count": 1
       },
       {
         "name": "Outside Arbiter's Grounds Lantern Chest",
         "access_rules": [
-          "shadcrystal,lantern"
+          "lantern"
         ],
         "item_count": 1
       }

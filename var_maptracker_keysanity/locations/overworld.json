@@ -1,0 +1,1566 @@
+[
+  {
+    "name": "World",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "name": "Ordon Province",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Ordon Village",
+            "children": [
+              {
+                "name": "Ordon Ranch",
+                "sections": [
+                  {
+                    "name": "Herding Goats Heart Piece",
+                    "item_count": 1,
+                    "chest_unopened_img": "images/HP.png",
+                    "chest_opened_img": "images/HP_grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 675.96,
+                    "y": 1127
+                  }
+                ]
+              },
+              {
+                "name": "Grotto - Rat and Chu-Chu Chest",
+                "sections": [
+                  {
+                    "name": "Chest",
+                    "access_rules": [
+                      "shadcrystal,lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 651.96,
+                    "y": 1127
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Faron Province",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "South Faron Woods",
+            "children": [
+              {
+                "name": "Coro's Items",
+                "short_name": "Coro",
+                "sections": [
+                  {
+                    "name": "Lantern",
+                    "access_rules": [
+                      "faron_woods_small_key:1"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Coro's Bottle",
+                    "access_rules": [
+                      "$faron_twilight_cleared"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Coro's Gate Key",
+                    "access_rules": [
+                      "faron_woods_small_key:1, FaronEscapeOff"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 673.92,
+                    "y": 913.5
+                  }
+                ]
+              },
+              {
+                "name": "South Faron Cave Small Chest",
+                "sections": [
+                  {
+                    "name": "Chest",
+                    "access_rules": [
+                      "$can_burn_webs, faron_woods_small_key:2",
+                      "lantern, shadcrystal, $has_explosives, dominion",
+                      "lantern, faron_woods_small_key:1, shadcrystal, $faron_twilight_cleared"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 644.4,
+                    "y": 897.5
+                  }
+                ]
+              },
+              {
+                "name": "Mist - Owl Statue",
+                "sections": [
+                  {
+                    "name": "Skybook Letter",
+                    "access_rules": [
+                      "$can_smash,dominion"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Owl Statue Chest",
+                    "access_rules": [
+                      "$can_smash,dominion,shadcrystal"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 650,
+                    "y": 873
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "North Faron Woods",
+            "children": [
+              {
+                "name": "North Faron Cave Small Chest",
+                "short_name": "North Faron Cave Small Chest",
+                "sections": [
+                  {
+                    "name": "Cave Small Chest",
+                    "access_rules": [
+                      "lantern, faron_woods_small_key:2",
+                      "lantern, shadcrystal, $has_explosives, dominion",
+                      "lantern, faron_woods_small_key:1, shadcrystal, $faron_twilight_cleared"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Cave Heart Piece Chest",
+                    "access_rules": [
+                      "lantern, faron_woods_small_key:2",
+                      "lantern, shadcrystal, $has_explosives, dominion",
+                      "lantern, faron_woods_small_key:1, shadcrystal, $faron_twilight_cleared"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 652,
+                    "y": 851
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "West Faron Woods",
+            "sections": [
+              {
+                "name": "Small Chest",
+                "access_rules": [
+                  "lantern, faron_woods_small_key:2",
+                  "shadcrystal, faron_woods_small_key:2",
+                  "shadcrystal, $faron_twilight_cleared"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 570,
+                "y": 865
+              }
+            ]
+          },
+          {
+            "name": "Mist - Chests",
+            "sections": [
+              {
+                "name": "1st Chest",
+                "access_rules": [
+                  "lantern, faron_woods_small_key:2",
+                  "lantern, shadcrystal, $has_explosives, dominion",
+                  "lantern, faron_woods_small_key:1, shadcrystal, $faron_twilight_cleared"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "2nd Chest",
+                "access_rules": [
+                  "lantern, faron_woods_small_key:2",
+                  "lantern, shadcrystal, $has_explosives, dominion",
+                  "lantern, faron_woods_small_key:1, shadcrystal, $faron_twilight_cleared"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "3rd Chest",
+                "access_rules": [
+                  "lantern, faron_woods_small_key:2",
+                  "lantern, shadcrystal, $has_explosives, dominion",
+                  "lantern, faron_woods_small_key:1, shadcrystal, $faron_twilight_cleared"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 616,
+                "y": 868
+              }
+            ]
+          },
+          {
+            "name": "Sacred Grove",
+            "children": [
+              {
+                "name": "Master Sword",
+                "short_name": "Master Sword",
+                "sections": [
+                  {
+                    "name": "Master Sword",
+                    "access_rules": [
+                      "shad3"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Shadow Crystal",
+                    "access_rules": [
+                      "shad3",
+                      "shadowcrystal"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 525.4,
+                    "y": 821
+                  }
+                ]
+              },
+              {
+                "name": "Lost Woods",
+                "sections": [
+                  {
+                    "name": "Lost Woods - Lantern Chest",
+                    "access_rules": [
+                      "lantern"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Lost Woods - Spinner Wall Chest",
+                    "access_rules": [
+                      "spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 525,
+                    "y": 880
+                  }
+                ]
+              },
+              {
+                "name": "Past - Heart Piece Chest",
+                "sections": [
+                  {
+                    "name": "Past Chest",
+                    "access_rules": [
+                      "shadcrystal,dominion"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 540.96,
+                    "y": 861
+                  }
+                ]
+              },
+              {
+                "name": "Grotto - Deku Baba Heart Piece Chest",
+                "sections": [
+                  {
+                    "name": "Deku Baba Chest",
+                    "access_rules": [
+                      "shadcrystal,$can_smash"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 505.92,
+                    "y": 861
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "South Hyrule Field",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "South Hyrule Field",
+            "sections": [
+              {
+                "name": "Under Bridge Chest",
+                "access_rules": [
+                  "cs"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 655,
+                "y": 740
+              }
+            ]
+          },
+          {
+            "name": "South Hyrule Field",
+            "sections": [
+              {
+                "name": "Tree Heart Piece",
+                "access_rules": [
+                  "rang",
+                  "cs"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 665,
+                "y": 760
+              }
+            ]
+          },
+          {
+            "name": "South Hyrule Field",
+            "sections": [
+              {
+                "name": "Grotto - Chu, Baba and Keese",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 695,
+                "y": 810
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eldin Province",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Death Mountain",
+            "color": "#18a50e",
+            "children": [
+              {
+                "name": "Alcove Heart Piece Chest",
+                "short_name": "Alcove Chest",
+                "sections": [
+                  {
+                    "name": "Alcove Heart Piece Chest",
+                    "access_rules": [
+                      "shad2",
+                      "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 1029.96,
+                    "y": 516
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Eldin Field",
+            "color": "#09a09d",
+            "children": [
+              {
+                "name": "Bomb Rock Ledge Heart Piece Chest",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Bomb Rock Ledge Chest",
+                    "access_rules": [
+                      "$can_smash"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 862.92,
+                    "y": 544
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Eldin Gorge",
+            "sections": [
+              {
+                "name": "Gorge Spire Chest",
+                "access_rules": [
+                  "dcs"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Gorge Spire Heart Piece",
+                "access_rules": [
+                  "rang",
+                  "cs"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 742,
+                "y": 653
+              }
+            ]
+          },
+          {
+            "name": "Eldin Gorge",
+            "sections": [
+              {
+                "name": "Gorge Skybook Letter",
+                "access_rules": [
+                  "dominion"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Gorge Owl Chest",
+                "access_rules": [
+                  "dominion"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 790,
+                "y": 610
+              }
+            ]
+          },
+          {
+            "name": "East Hyrule",
+            "parent": "Eldin Province",
+            "chest_unopened_img": "images/chest_closed.png",
+            "chest_opened_img": "images/chest_opened_img.png",
+            "sections": [
+              {
+                "name": "Grotto - Freestanding Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "shadcrystal"
+                ]
+              },
+              {
+                "name": "Grotto - Lantern Chest",
+                "item_count": 1,
+                "access_rules": [
+                  "shadcrystal,lantern"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 820,
+                "y": 495
+              }
+            ]
+          },
+          {
+            "name": "East Hyrule Field",
+            "sections": [
+              {
+                "name": "Grotto - Water Bomb Fish Chest",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 930,
+                "y": 430
+              }
+            ]
+          },
+          {
+            "name": "East Hyrule Field",
+            "sections": [
+              {
+                "name": "Skybook Letter",
+                "access_rules": [
+                  "dominion"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 935,
+                "y": 350
+              }
+            ]
+          },
+          {
+            "name": "East Hyrule Field",
+            "sections": [
+              {
+                "name": "Owl Statue Chest",
+                "access_rules": [
+                  "dominion,shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 935,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "name": "East Hyrule Field",
+            "sections": [
+              {
+                "name": "Hot Springwater Goron Heart Piece",
+                "access_rules": [
+                  "shad2"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 700,
+                "y": 510
+              }
+            ]
+          },
+          {
+            "name": "North-East Hyrule Field",
+            "sections": [
+              {
+                "name": "Grotto - Stalfos Chest",
+                "access_rules": [
+                  "spinner,shadcrystal"
+                ],
+                "item_count": 2
+              },
+              {
+                "name": "Grotto - Stalfos Heart Piece Chest",
+                "access_rules": [
+                  "spinner,shadcrystal,$can_smash"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 898,
+                "y": 235
+              }
+            ]
+          },
+          {
+            "name": "Hidden Village",
+            "sections": [
+              {
+                "name": "Hidden Village Skybook",
+                "access_rules": [
+                  "dominion,shard3"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Hidden Village Ilia Charm",
+                "access_rules": [
+                  "statue,shard3"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Hide and Seek",
+                "access_rules": [
+                  "invoice,shard3"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 852,
+                "y": 301
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Snowpeak Province",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Snowpeak Mountains",
+            "color": "#09a09d",
+            "children": [
+              {
+                "name": "Ashei's Sketch",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Sketch",
+                    "access_rules": [
+                      "shard1"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 605.16,
+                    "y": 138.25
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Snowpeak Province",
+            "sections": [
+              {
+                "name": "Grotto - Freezard Chest",
+                "access_rules": [
+                  "shadcrystal,chainball,scent4"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 515,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "name": "Snowpeak Province",
+            "sections": [
+              {
+                "name": "Frozen Lantern Chest",
+                "access_rules": [
+                  "shadcrystal,lantern,chainball,scent4"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 450,
+                "y": 140
+              }
+            ]
+          },
+          {
+            "name": "Snowpeak Province",
+            "sections": [
+              {
+                "name": "Snowboard Racing",
+                "access_rules": [
+                  "shadcrystal,lantern,chainball,scent4"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 430,
+                "y": 140
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lanayru Province",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Zora's Domain",
+            "color": "#09a09d",
+            "children": [
+              {
+                "name": "Small Chest Under Waterfall",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Chest Under Waterfall",
+                    "access_rules": [
+                      "shadcrystal"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 665.16,
+                    "y": 132
+                  }
+                ]
+              },
+              {
+                "name": "Small Chest Near Mother and Child Isles",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Chest Near Mother and Child",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 674.76,
+                    "y": 153
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Zora's Domain",
+            "sections": [
+              {
+                "name": "Underwater Chest - Light all 3 Torches",
+                "access_rules": [
+                  "lantern,irons,shadcrystal",
+                  "lantern,irons,$can_smash"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Underwater Chest - Extinguish all 3 Torches",
+                "access_rules": [
+                  "rang,irons,shadcrystal",
+                  "rang,irons,$can_smash"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Goron in Lava Rock (Waterbombs)",
+                "access_rules": [
+                  "$has_explosives,irons"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 655,
+                "y": 86
+              }
+            ]
+          },
+          {
+            "name": "Near Zora's Domain",
+            "sections": [
+              {
+                "name": "Fishing Hole Heart Piece (Clawshot can help o/)",
+                "access_rules": [
+                  ""
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 760,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "name": "Near Zora's Domain",
+            "sections": [
+              {
+                "name": "Fishing Hole Bottle",
+                "access_rules": [
+                  ""
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 780,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "name": "Near Zora's Domain",
+            "sections": [
+              {
+                "name": "Iza's Bomb Bag (After helping her)",
+                "access_rules": [
+                  "bow"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Bomb Minigame",
+                "access_rules": [
+                  "bow,"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 790,
+                "y": 164
+              }
+            ]
+          },
+          {
+            "name": "Near Zora's Domain",
+            "sections": [
+              {
+                "name": "Fruit Minigame",
+                "access_rules": [
+                  "shadcrystal,shad3"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 770,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "name": "West Hyrule Field",
+            "sections": [
+              {
+                "name": "Spinner Wall Heart Piece Chest",
+                "access_rules": [
+                  "spinner,$can_smash"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 500,
+                "y": 475
+              }
+            ]
+          },
+          {
+            "name": "West Hyrule Field",
+            "sections": [
+              {
+                "name": "Bridge Vines Chest",
+                "access_rules": [
+                  "cs"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 495,
+                "y": 570
+              }
+            ]
+          },
+          {
+            "name": "West Hyrule Field",
+            "sections": [
+              {
+                "name": "Grotto - Bubble Chest",
+                "access_rules": [
+                  "$shoot_pew,cs,shadcrystal"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Outside Grotto Chest",
+                "access_rules": [
+                  "$shoot_pew,cs"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 533,
+                "y": 699
+              }
+            ]
+          },
+          {
+            "name": "West Hyrule Field - Owl Statue",
+            "sections": [
+              {
+                "name": "Skybook Letter",
+                "access_rules": [
+                  "dominion,cs"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Owl Statue Chest",
+                "access_rules": [
+                  "dominion,cs"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 495,
+                "y": 540
+              }
+            ]
+          },
+          {
+            "name": "West Hyrule Field",
+            "sections": [
+              {
+                "name": "Skybook Letter",
+                "access_rules": [
+                  "dominion"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Owl Statue Chest",
+                "access_rules": [
+                  "dominion"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 541,
+                "y": 543
+              }
+            ]
+          },
+          {
+            "name": "South Hyrule Field",
+            "sections": [
+              {
+                "name": "Fountain Chest",
+                "access_rules": [
+                  "cs,spinner"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Castle Pillar Chest",
+                "access_rules": [
+                  "cs,shadcrystal"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Wooden Statue",
+                "access_rules": [
+                  "invoice"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 640,
+                "y": 570
+              }
+            ]
+          },
+          {
+            "name": "South Hyrule Field",
+            "sections": [
+              {
+                "name": "Lake Chasm Chest",
+                "access_rules": [
+                  "dcs"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 620,
+                "y": 580
+              }
+            ]
+          },
+          {
+            "name": "South Hyrule Field",
+            "sections": [
+              {
+                "name": "Grotto - Tektite Chest",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 660,
+                "y": 580
+              }
+            ]
+          },
+          {
+            "name": "North Hyrule Field",
+            "sections": [
+              {
+                "name": "Grotto - Lantern Chest",
+                "access_rules": [
+                  "lantern,shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 645,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "name": "North Hyrule Field",
+            "sections": [
+              {
+                "name": "Ice Block Puzzle Chest",
+                "access_rules": [
+                  "chainball"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 635,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "name": "North Hyrule Field",
+            "sections": [
+              {
+                "name": " Behind Gate Underwater Chest",
+                "access_rules": [
+                  "irons"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 645,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "name": "Lake Hylia",
+            "color": "#09a09d",
+            "children": [
+              {
+                "name": "Underwater Chest",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Underwater Chest",
+                    "access_rules": [
+                      "irons"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 478.2,
+                    "y": 665.75
+                  }
+                ]
+              },
+              {
+                "name": "Grotto - Water Toadpoli Chest",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Water Toadpoli Chest",
+                    "access_rules": [
+                      "shadcrystal,shad3,bow"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 467.4,
+                    "y": 690.75
+                  }
+                ]
+              },
+              {
+                "name": "Outside Lanayru Spring - Left Statue Chest",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Left Statue Chest",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 499.6,
+                    "y": 634.5
+                  }
+                ]
+              },
+              {
+                "name": "Outside Lanayru Spring - Right Statue Chest",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Right Statue Chest",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 519.6,
+                    "y": 634.5
+                  }
+                ]
+              },
+              {
+                "name": "Flight By Fowl",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Flight By Fowl",
+                    "item_count": 5
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 522,
+                    "y": 600
+                  }
+                ]
+              },
+              {
+                "name": "Grotto - Shell Blade Chest",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Shell Blade Chest",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 460.92,
+                    "y": 574
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "West Hyrule Field",
+            "color": "#09a09d",
+            "children": [
+              {
+                "name": "Grotto - Helmasaur Chest",
+                "color": "#18a50e",
+                "sections": [
+                  {
+                    "name": "Helmasaur Chest",
+                    "access_rules": [
+                      "shadcrystal,cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 543,
+                    "y": 481
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gerudo Desert",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "Grotto - Skulltula Chest",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 400,
+                "y": 750
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "1st Freestanding Chest",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 350,
+                "y": 710
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "Peahat Chest",
+                "access_rules": [
+                  "shadcrystal,cs",
+                  "shadcrystal,dcs"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 340,
+                "y": 750
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "2nd Freestanding Chest",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 270,
+                "y": 720
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "Behind Gate Chest",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 320,
+                "y": 760
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert - Owl Statue",
+            "sections": [
+              {
+                "name": "Skybook Letter",
+                "access_rules": [
+                  "dominion,shadcrystal"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Owl Statue Chest",
+                "access_rules": [
+                  "dominion,shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 250,
+                "y": 755
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "3rd Freestanding Chest",
+                "access_rules": [
+                  "shadcrystal,cs",
+                  "shadcrystal,dcs"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 185,
+                "y": 720
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "Grotto - Boulder Lanter Chest",
+                "access_rules": [
+                  "cs,shadcrystal,$can_smash,lantern",
+                  "dcs,shadcrystal,$can_smash,lantern"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 250,
+                "y": 635
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "3 Freestanding Chest",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 185,
+                "y": 660
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "Freestanding Chest Behind Gate",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 200,
+                "y": 620
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "Freestanding Chest",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 150,
+                "y": 620
+              }
+            ]
+          },
+          {
+            "name": "Gerudo Desert",
+            "sections": [
+              {
+                "name": "Freestanding Chest",
+                "access_rules": [
+                  "shadcrystal"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 195,
+                "y": 590
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,289 @@
+[
+	{
+		"name": "Ordon Village",
+		"parent": "Ordona Province",
+		"chest_unopened_img": "images/wallet.png",
+		"chest_opened_img": "images/wallet-grey.png",
+		"sections": [
+			{
+				"name": "Milk - 10 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Bee Larva - 10 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Lantern Oil - 20 Rupees",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Shops",
+				"x": 666,
+				"y": 1072
+			}
+		]
+	},
+	{
+		"name": "Malo Mart",
+		"parent": "Eldin Province",
+		"chest_unopened_img": "images/wallet.png",
+		"chest_opened_img": "images/wallet-grey.png",
+		"sections": [
+			{
+				"name": "Red Potion - 30 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Wooden Shield - 50 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Hylian Shield - 200 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Hawkeye - 100 Rupees",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Shops",
+				"x": 963,
+				"y": 666
+			}
+		]
+	},
+	{
+		"name": "Death Mountain Goron Shop",
+		"parent": "Eldin Province",
+		"chest_unopened_img": "images/wallet.png",
+		"chest_opened_img": "images/wallet-grey.png",
+		"sections": [
+			{
+				"name": "Arrows - 10 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"irons",
+					"shadcrystal"
+				]
+			},
+			{
+				"name": "Lantern Oil - 20 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"irons",
+					"shadcrystal"
+				]
+			},
+			{
+				"name": "Wooden Shield - 50 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"irons",
+					"shadcrystal"
+				]
+			},
+			{
+				"name": "Milk - 20 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"irons",
+					"shadcrystal"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Shops",
+				"x": 1024,
+				"y": 470
+			}
+		]
+	},
+	{
+		"name": "Goron Market only at Night",
+		"parent": "Eldin Province",
+		"chest_unopened_img": "images/wallet.png",
+		"chest_opened_img": "images/wallet-grey.png",
+		"sections": [
+			{
+				"name": "Lantern Oil - 20 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"shad2"
+				]
+			},
+			{
+				"name": "Red Potion - 30 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"shad2"
+				]
+			},
+			{
+				"name": "Blue Potion - 100 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"shad2"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Shops",
+				"x": 963,
+				"y": 646
+			}
+		]
+	},
+	{
+		"name": "Malo Mart Castle Branch",
+		"parent": "Lanayru Province",
+		"chest_unopened_img": "images/wallet.png",
+		"chest_opened_img": "images/wallet-grey.png",
+		"sections": [
+			{
+				"name": "Bombs - 45 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Water Bombs - 45 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Bombling - 30 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Arrows - 5 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Blue Potion - 50 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Red Potion - 15 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Magic Armor - 578 Rupees",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Shops",
+				"x": 640,
+				"y": 511
+			}
+		]
+	},
+	{
+		"name": "Goron Hylian Shield Purchase",
+		"parent": "Lanayru Province",
+		"chest_unopened_img": "images/wallet.png",
+		"chest_opened_img": "images/wallet-grey.png",
+		"sections": [
+			{
+				"name": "Hylian Shield - 210 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Red Potion - 40 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Lantern Oil - 30 Rupees",
+				"item_count": 1
+			},
+			{
+				"name": "Arrows - 40 Rupees",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Shops",
+				"x": 620,
+				"y": 531
+			}
+		]
+	},
+	{
+		"name": "Goron Spring Water Purchase",
+		"parent": "Lanayru Province",
+		"chest_unopened_img": "images/wallet.png",
+		"chest_opened_img": "images/wallet-grey.png",
+		"sections": [
+			{
+				"name": "Spring Water - 20 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"shad2"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Shops",
+				"x": 640,
+				"y": 531
+			}
+		]
+	},
+	{
+		"name": "City in the Sky",
+		"parent": "Lanayru Province",
+		"chest_unopened_img": "images/wallet.png",
+		"chest_opened_img": "images/wallet-grey.png",
+		"sections": [
+			{
+				"name": "Bombs - 90 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"cs"
+				]
+			},
+			{
+				"name": "Arrows - 30 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"cs"
+				]
+			},
+			{
+				"name": "Red Potion - 30 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"cs"
+				]
+			},
+			{
+				"name": "Blue Potion - 100 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"cs"
+				]
+			},
+			{
+				"name": "Lantern Oil - 20 Rupees",
+				"item_count": 1,
+				"access_rules": [
+					"cs"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Shops",
+				"x": 465,
+				"y": 625
+			}
+		]
+	}
+]

@@ -22,53 +22,32 @@
                       {
                         "type": "itemgrid",
                         "h_alignment": "center",
-                        "item_size": 36,
+                        "item_size": 45,
                         "item_margin": "0,0,10,5",
                         "rows": [
                           [ "rod", "slingshot", "lantern", "boomerang", "irons", "bow" ],
-                          [ "bomb1", "bomb2", "bomb3", "hawkeye", "clawshot", "spinner" ],
-                          [ "chainball", "brokedominion", "bottle1", "bottle2", "bottle3", "bottle4" ],
-                          [ "entry", "charm", "bugs", "sword1", "sword3", "shadcrystal" ],
-                          [ "poh", "container", "soul", "skills", "shield2", "shield3" ],
-                          [ "wallet", "letters", "scent1", "greentunic", "bluetunic", "redtunic" ]
+                          [ "bombs", "wbombs", "hawkeye", "clawshot", "spinner", "chainball" ],
+                          [ "brokendominion", "bottle", "memo", "sketch", "skybook", "charm" ],
+                          [ "skills", "sword1", "sword3", "shield1", "greentunic", "wallet" ],
+                          [ "bugs", "soul", "shadcrystal", "bluetunic", "redtunic", "poh" ],
+                          [ "youthscent", "iliascent", "poescent", "reekfishscent", "medicinescent", "container" ]
                         ]
                       },
                       {
                         "type": "itemgrid",
-                        "h_alignment": "center",
+                        "h_alignment": "left",
                         "item_margin": "0,0,10,5",
-                        "item_height": 50,
-                        "item_width": 36,
+                        "item_height": 60,
+                        "item_width": 60,
                         "margin": "0,0",
                         "rows": [
-                          [ "shard1", "shard2", "shard3", "shard4" ]
+                          [ "boss1", "boss2", "boss3", "boss4", "boss5", "vessel" ],
+                          [ "boss6", "boss7", "boss8", "boss9", "shadow1", "shard1" ]
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "array",
-                    "orientation": "vertical",
-                    "content": [
+                      },
                       {
-                        "type": "array",
-                        "orientation": "vertical",
-                        "content": [
-                          {
-                            "type": "itemgrid",
-                            "h_alignment": "center",
-                            "item_margin": "0,20",
-                            "item_height": 50,
-                            "item_width": 36,
-                            "margin": "0,3",
-                            "badge_font_size": 10,
-                            "rows": [
-                              [ "shad1" ],
-                              [ "shad2" ],
-                              [ "shad3" ]
-                            ]
-                          }
-                        ]
+                        "type": "layout",
+                        "key": "dungeon_grid_tall"
                       }
                     ]
                   }

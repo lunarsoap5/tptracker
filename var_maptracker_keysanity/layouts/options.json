@@ -1,0 +1,38 @@
+{
+  "options_popup": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Skip Options",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "1,2",
+          "item_size": 45,
+          "rows": [
+            [
+              "FaronEscapeOff",
+              "TwilightSkipOff",
+              "MDHSkipOff",
+              "EarlyDesertOff",
+              "EarlyCiTSOff"
+            ],
+            [
+              "MinesPatchOff",
+              "NoShopBottleOff",
+              "EarlyHyruleOff",
+              "EscortSkipOff",
+              "EarlyToTOff"
+            ],
+            [
+              "",
+              "",
+              "EarlyPoTOff",
+              "",
+              ""
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

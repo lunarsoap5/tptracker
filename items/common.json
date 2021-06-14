@@ -1,5 +1,4 @@
 ﻿[
-  // Progressive Wallet HD
   {
     "name": "Wallet",
     "type": "progressive",
@@ -20,82 +19,19 @@
       }
     ]
   },
-  // Bombs 1
   {
     "name": "Bombs",
-    "type": "progressive",
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/bombbag.png",
-        "img_mods": "@disabled",
-        "codes": "bombs1,bombbag1,bomb1"
-      },
-      {
-        "img": "images/bombbag.png"
-      },
-      {
-        "img": "images/bomb.png"
-      },
-      {
-        "img": "images/bomb-water.png"
-      },
-      {
-        "img": "images/bombling.png"
-      }
-    ]
+    "type": "consumable",
+    "img": "images/bombbag.png",
+    "codes": "bombs",
+    "max_quantity": 4
   },
-  // Bombs 2
   {
-    "name": "Bombs",
-    "type": "progressive",
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/bombbag.png",
-        "img_mods": "@disabled",
-        "codes": "bombs2,bombbag2,bomb2"
-      },
-      {
-        "img": "images/bombbag.png"
-      },
-      {
-        "img": "images/bomb.png"
-      },
-      {
-        "img": "images/bomb-water.png"
-      },
-      {
-        "img": "images/bombling.png"
-      }
-    ]
+    "name": "Water Bombs",
+    "type": "toggle",
+    "img": "images/WBombs.png",
+    "codes": "wbombs"
   },
-  // Bombs 3
-  {
-    "name": "Bombs",
-    "type": "progressive",
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/giantbombbag.png",
-        "img_mods": "@disabled",
-        "codes": "bombs3,bombbag3,bomb3"
-      },
-      {
-        "img": "images/giantbombbag.png"
-      },
-      {
-        "img": "images/GiantBombs2.png"
-      },
-      {
-        "img": "images/GiantBombs3.png"
-      },
-      {
-        "img": "images/GiantBombs4.png"
-      }
-    ]
-  },
-  // Slingshot
   {
     "name": "Slingshot",
     "type": "progressive",
@@ -111,7 +47,6 @@
       }
     ]
   },
-  // Fishing Rod
   {
     "name": "Fishing Rod",
     "type": "progressive",
@@ -126,36 +61,23 @@
         "codes": "rod"
       },
       {
-        "img": "images/earring.png"
+        "img": "images/earring.png",
+        "codes": "earring"
       }
     ]
   },
-  // Items From Four Friends
   {
-    "name": "Temple Entry",
-    "type": "progressive",
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/memo.png",
-        "img_mods": "@disabled"
-      },
-      {
-        "img": "images/memo.png",
-        "codes": "entry"
-      },
-      {
-        "img": "images/sketch.png",
-        "codes": "entry"
-      },
-      {
-        "img": "images/golden.png",
-        "codes": "entry"
-      }
-    ]
+    "name": "Auru's Memo",
+    "type": "toggle",
+    "img": "images/memo.png",
+    "codes": "memo"
   },
-
-  // Scents
+  {
+    "name": "Ashei's Sketch",
+    "type": "toggle",
+    "img": "images/sketch.png",
+    "codes": "sketch"
+  },
   {
     "name": "Scents",
     "type": "progressive",
@@ -182,7 +104,90 @@
       }
     ]
   },
-  // Ilia's Memory Sidequest
+  {
+    "name": "Youth's Scent",
+    "type": "toggle",
+    "img": "images/youth-scent.png",
+    "codes": "youthscent"
+  },
+  {
+    "name": "Ilia Scent",
+    "type": "toggle",
+    "img": "images/ilia-scent.png",
+    "codes": "iliascent"
+  },
+  {
+    "name": "Poe Scent",
+    "type": "toggle",
+    "img": "images/poe-scent.png",
+    "codes": "poescent"
+  },
+  {
+    "name": "Reekfish Scent",
+    "type": "toggle",
+    "img": "images/reekfish-scent.png",
+    "codes": "reekfishscent"
+  },
+  {
+    "name": "Medicine Scent",
+    "type": "toggle",
+    "img": "images/medicine-scent.png",
+    "codes": "medicinescent"
+  },
+  {
+    "name": "Diababa",
+    "type": "toggle",
+    "img": "images/Boss1.png",
+    "codes": "boss1"
+  },
+  {
+    "name": "Fyrus",
+    "type": "toggle",
+    "img": "images/Boss2.png",
+    "codes": "boss2"
+  },
+  {
+    "name": "Morpheel",
+    "type": "toggle",
+    "img": "images/Boss3.png",
+    "codes": "boss3"
+  },
+  {
+    "name": "Stallord",
+    "type": "toggle",
+    "img": "images/Boss4.png",
+    "codes": "boss4"
+  },
+  {
+    "name": "Blizetta",
+    "type": "toggle",
+    "img": "images/Boss5.png",
+    "codes": "boss5"
+  },
+  {
+    "name": "Armogohma",
+    "type": "toggle",
+    "img": "images/Boss6.png",
+    "codes": "boss6"
+  },
+  {
+    "name": "Argorok",
+    "type": "toggle",
+    "img": "images/Boss7.png",
+    "codes": "boss7"
+  },
+  {
+    "name": "Zant",
+    "type": "toggle",
+    "img": "images/Boss8.png",
+    "codes": "boss8"
+  },
+  {
+    "name": "Ganondorf",
+    "type": "toggle",
+    "img": "images/Boss9.png",
+    "codes": "boss9"
+  },
   {
     "name": "Ilia's Memory",
     "type": "progressive",
@@ -190,8 +195,7 @@
     "stages": [
       {
         "img": "images/letter.png",
-        "img_mods": "@disabled",
-        "codes": "charm"
+        "img_mods": "@disabled"
       },
       {
         "img": "images/letter.png",
@@ -211,226 +215,56 @@
       }
     ]
   },
-  // Bottle 1
   {
-    "name": "Bottle 1",
+    "name": "Vessel of Light",
     "type": "progressive",
+    "allow_disabled": false,
     "stages": [
       {
-        "img": "images/bottle-empty.png",
-        "codes": "bottle,bottle1",
-        "inherit_codes": false
+        "img": "images/vessel.png",
+        "img_mods": "@disabled",
+        "codes": "vessel"
       },
       {
-        "img": "images/bottle-fairy.png",
-        "codes": "bottle,bottle1",
-        "inherit_codes": false
+        "img": "images/vessel1.png",
+        "codes": "vessel1"
       },
       {
-        "img": "images/bottle-tears.png",
-        "codes": "bottle,bottle1",
-        "inherit_codes": false
+        "img": "images/vessel2.png",
+        "codes": "vessel2"
       },
       {
-        "img": "images/bottle-soup.png",
-        "codes": "bottle,bottle1",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-red.png",
-        "codes": "bottle,bottle1,redpot1,redpotion1",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-blue.png",
-        "codes": "bottle,bottle1,bluepot1,bluepotion1",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-milk.png",
-        "codes": "bottle,bottle1",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-oil.png",
-        "codes": "bottle,bottle1",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-larvae.png",
-        "codes": "bottle,bottle1",
-        "inherit_codes": false
+        "img": "images/vessel3.png",
+        "codes": "vessel3"
       }
     ]
   },
   {
-    "name": "Bottle 2",
-    "type": "progressive",
-    "stages": [
-      {
-        "img": "images/bottle-empty.png",
-        "codes": "bottle,bottle2",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-fairy.png",
-        "codes": "bottle,bottle2",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-tears.png",
-        "codes": "bottle,bottle2",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-soup.png",
-        "codes": "bottle,bottle2",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-red.png",
-        "codes": "bottle,bottle2,redpot2,redpotion2",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-blue.png",
-        "codes": "bottle,bottle2,bluepot2,bluepotion2",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-milk.png",
-        "codes": "bottle,bottle2",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-oil.png",
-        "codes": "bottle,bottle2",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-larvae.png",
-        "codes": "bottle,bottle2",
-        "inherit_codes": false
-      }
-    ]
+    "name": "Bottle",
+    "type": "consumable",
+    "img": "images/bottle-empty.png",
+    "codes": "bottle",
+    "max_quantity": 4
   },
   {
-    "name": "Bottle 3",
-    "type": "progressive",
-    "stages": [
-      {
-        "img": "images/bottle-empty.png",
-        "codes": "bottle,bottle3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-fairy.png",
-        "codes": "bottle,bottle3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-tears.png",
-        "codes": "bottle,bottle3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-soup.png",
-        "codes": "bottle,bottle3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-red.png",
-        "codes": "bottle,bottle3,redpot3,redpotion3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-blue.png",
-        "codes": "bottle,bottle3,bluepot3,bluepotion3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-milk.png",
-        "codes": "bottle,bottle3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-oil.png",
-        "codes": "bottle,bottle3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-larvae.png",
-        "codes": "bottle,bottle3",
-        "inherit_codes": false
-      }
-    ]
+    "name": "Skybook",
+    "type": "consumable",
+    "img": "images/skybook.png",
+    "codes": "skybook",
+    "max_quantity": 7
   },
-  {
-    "name": "Bottle 4",
-    "type": "progressive",
-    "stages": [
-      {
-        "img": "images/bottle-empty.png",
-        "codes": "bottle,bottle4",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-fairy.png",
-        "codes": "bottle,bottle4",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-tears.png",
-        "codes": "bottle,bottle4",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-soup.png",
-        "codes": "bottle,bottle4",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-red.png",
-        "codes": "bottle,bottle4,redpot4,redpotion4",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-blue.png",
-        "codes": "bottle,bottle4,bluepot4,bluepotion4",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-milk.png",
-        "codes": "bottle,bottle4",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-oil.png",
-        "codes": "bottle,bottle4",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/bottle-larvae.png",
-        "codes": "bottle,bottle4",
-        "inherit_codes": false
-      }
-    ]
-  },
-  // Hawkeye
   {
     "name": "Hawkeye",
     "type": "toggle",
     "img": "images/hawkeye.png",
     "codes": "hawkeye"
   },
-  // lantern
   {
     "name": "lantern",
     "type": "toggle",
     "img": "images/lantern.png",
     "codes": "lantern"
   },
-  // Golden Bugs
   {
     "name": "Golden Bugs",
     "type": "consumable",
@@ -438,7 +272,6 @@
     "codes": "bugs",
     "max_quantity": 24
   },
-  // Hidden Skills
   {
     "name": "Hidden Skills",
     "type": "consumable",
@@ -446,35 +279,30 @@
     "max_quantity": 7,
     "codes": "skills"
   },
-  // Hero Tunic
   {
     "name": "Hero's Tunic",
     "type": "static",
     "img": "images/herotunic.png",
     "codes": "greentunic"
   },
-  // Goron Tunic
   {
     "name": "Magic Armor",
     "type": "toggle",
     "img": "images/magic-armor.png",
     "codes": "gorontunic,redtunic"
   },
-  // Zora Tunic
   {
     "name": "Zora Armor",
     "type": "toggle",
     "img": "images/zora-armor.png",
     "codes": "zoratunic,bluetunic"
   },
-  // Iron Boots
   {
     "name": "Iron Boots",
     "type": "toggle",
     "img": "images/iron-boots.png",
     "codes": "ironboots,iboots,iron,irons"
   },
-  // Progressive Wallet
   {
     "name": "Wallet",
     "type": "progressive",
@@ -485,14 +313,15 @@
         "codes": "wallet"
       },
       {
-        "img": "images/bigwallet.png"
+        "img": "images/bigwallet.png",
+        "codes": "wallet2"
       },
       {
-        "img": "images/giantwallet.png"
+        "img": "images/giantwallet.png",
+        "codes": "wallet3"
       }
     ]
   },
-  // Heart Pieces
   {
     "name": "Heart Pieces",
     "type": "consumable",
@@ -500,7 +329,6 @@
     "codes": "heartpiece,poh,pieceofheart,piece",
     "max_quantity": 45
   },
-  // Heart Container
   {
     "name": "Heart Container",
     "type": "consumable",
@@ -508,7 +336,6 @@
     "codes": "heartcontainer,container,HC",
     "max_quantity": 8
   },
-  // Skybook Letters
   {
     "name": "Letters",
     "type": "consumable",
@@ -516,14 +343,20 @@
     "codes": "letters",
     "max_quantity": 7
   },
-  // Wooden Sword
   {
-    "name": "Wooden Sword",
-    "type": "toggle",
-    "img": "images/wooden-sword.png",
-    "codes": "sword1"
+    "name": "Ordon Swords",
+    "type": "Progressive",
+    "stages": [
+      {
+        "img": "images/wooden-sword.png",
+        "codes": "sword1"
+      },
+      {
+        "img": "images/ordon-sword.png",
+        "codes": "sword2"
+      }
+    ]
   },
-  // Master Sword
   {
     "name": "Master Sword",
     "type": "progressive",
@@ -533,47 +366,31 @@
         "codes": "sword3,mastersword,ms"
       },
       {
-        "img": "images/master-sword-light.png"
+        "img": "images/master-sword-light.png",
+        "codes": "sword4,buttersword"
       }
     ]
   },
-  // Ordon Sword
   {
-    "name": "Ordon Sword",
+    "name": "Shadow Crystal",
     "type": "toggle",
-    "img": "images/ordon-sword.png",
-    "codes": "sword2"
+    "img": "images/shad-crystal.png",
+    "codes": "shadcrystal"
   },
-  // Wooden Shield
   {
-    "name": "Wooden Shield",
-    "type": "toggle",
-    "img": "images/wooden-shield.png",
-    "codes": "shield1"
-  },
-  // Wooden Shield
-  {
-    "name": "Ordon Shield",
+    "name": "Shield",
     "type": "progressive",
     "stages": [
       {
         "img": "images/ordon-shield.png",
-        "codes": "shield2"
+        "codes": "shield1"
       },
       {
-        "img": "images/wooden-shield.png",
+        "img": "images/hylian-shield.png",
         "codes": "shield2"
       }
     ]
   },
-  // Hylian Shield
-  {
-    "name": "Hylian Shield",
-    "type": "toggle",
-    "img": "images/hylian-shield.png",
-    "codes": "shield3,hylianshield"
-  },
-  // Poe Souls
   {
     "name": "Poe Souls",
     "type": "consumable",

@@ -1,19 +1,38 @@
-[
-  {
-    "name": "Shopsanity",
-    "type": "progressive",
-    "allow_disabled": true,
-    "loop": true,
-    "stages": [
+{
+  "options_popup": {
+    "type": "tabbed",
+    "tabs": [
       {
-        "img": "images/setting_shopsanity_no.png",
-        "codes": "setting_shopsanity,setting_shopsanity_no"
-      },
-      {
-        "img": "images/setting_shopsanity_yes.png",
-        "codes": "setting_shopsanity,setting_shopsanity_yes",
-        "inherit_codes": false
+        "title": "Skip Options",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "1,2",
+          "item_size": 45,
+          "rows": [
+            [
+              "FaronEscapeOff",
+              "TwilightSkipOff",
+              "MDHSkipOff",
+              "EarlyDesertOff",
+              "EarlyCiTSOff"
+            ],
+            [
+              "MinesPatchOff",
+              "NoShopBottleOff",
+              "EarlyHyruleOff",
+              "EscortSkipOff",
+              "EarlyToTOff"
+            ],
+            [
+              "",
+              "",
+              "EarlyPoTOff",
+              "",
+              ""
+            ]
+          ]
+        }
       }
     ]
   }
-]
+}
