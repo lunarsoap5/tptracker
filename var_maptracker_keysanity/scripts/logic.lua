@@ -237,9 +237,33 @@ end
 
 --Sacred Grove--
 function can_access_lost_woods()
-  if has("Boomerang") and has("Shadow_Crystal") then
+  if has("$can_access_north_faron_woods") and has("Boomerang") and has("Shadow_Crystal") then
     return 1
   else 
+    return 0
+  end
+end
+
+function can_access_sacred_grove_master_sword()
+  if has("$can_access_lost_Woods") and has("$can_defeat_skull_kid") and has("Shadow_Crystal") then
+    return 1
+  else
+    return 0
+  end
+end
+
+function can_access_grotto_2_2()
+  if has("$can_access_sacred_grove_master_sword") and has("$can_smash") and has("Shadow_Crystal") then
+    return 1
+  else
+    return 0
+  end
+end
+
+function can_access_sacred_grove_temple_of_time()
+  if has("$can_access_sacred_grove_master_sword") and has("Progressive_Sword_3") then
+    return 1
+  else
     return 0
   end
 end
