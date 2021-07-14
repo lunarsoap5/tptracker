@@ -180,6 +180,11 @@ end
 
 
 --Area Access Logic--
+
+function can_access_ordonia_province()
+  return 1
+end
+
 function can_access_north_faron()
   if has("$faron_twilight_cleared") and (has("lantern") or has("shadcrystal")) then
     return 1

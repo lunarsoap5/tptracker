@@ -180,13 +180,70 @@ end
 
 
 --Area Access Logic--
-function can_access_north_faron()
-  if has("$faron_twilight_cleared") and (has("lantern") or has("shadcrystal")) then
+
+--Ordon Province--
+function can_access_ordonia_province()
+  return 1
+end
+
+function can_access_grotto_1_2()
+  if has("$can_access_ordonia_province") and has("Shadow_Crystal") then
     return 1
   else
     return 0
   end
 end
+
+--Faron Province--
+function can_access_south_faron_woods()
+  if has("$can_access_ordonia_province") and has("Progressive_Sword_1") and has("Progressive_Fishing_Rod") then
+    return 1
+  else
+    return 0
+  end
+end
+
+function can_access_south_faron_woods_cave()
+  if has("$can_access_south_faron_woods") then
+    return 1
+  else
+    return 0
+  end
+end
+
+function can_access_faron_mist_area()
+  if (has("$can_access_south_faron_woods") and has("$can_smash") and has("Shadow_Crystal") and has("Progressive_Dominion_Rod_2")) or (has("$can_access_south_faron_woods_cave")) then
+    return 1
+  else
+    return 0
+  end
+end
+
+function can_access_faron_mist_cave()
+  if has("$can_access_faron_mist_area") and has("Lantern") then
+    return 1
+  else
+    return 0
+  end
+end
+
+function can_access_north_faron_woods()
+  if has("$can_access_faron_mist_area") and (has("Lantern") or has("Shadow_Crystal")) then
+    return 1
+  else
+    return 0
+  end
+end
+
+--Sacred Grove--
+function can_access_lost_woods()
+  if has("Boomerang") and has("Shadow_Crystal") then
+    return 1
+  else 
+    return 0
+  end
+end
+
 
 function can_access_kak_gorge()
   if has("$eldin_twilight_cleared") and (has("$can_access_faron_field") or has("$can_access_kak_village")) then

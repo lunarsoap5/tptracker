@@ -76,12 +76,8 @@
         "codes": "Progressive_Fused_Shadow_2"
       },
       {
-        "img": "images/shadow3.png",
-        "codes": "Progressive_Fused_Shadow_3"
-      },
-      {
         "img": "images/shadow4.png",
-        "codes": "Progressive_Fused_Shadow_4"
+        "codes": "Progressive_Fused_Shadow_3"
       }
     ]
   },
