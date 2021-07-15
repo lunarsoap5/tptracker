@@ -19,23 +19,11 @@
                     "item_count": 1,
                     "chest_unopened_img": "images/HP.png",
                     "chest_opened_img": "images/HP_grey.png"
-                  }
-                ],
-                "map_locations": [
+                  },
                   {
-                    "map": "Main",
-                    "x": 675.96,
-                    "y": 1127
-                  }
-                ]
-              },
-              {
-                "name": "Grotto - Rat and Chu-Chu Chest",
-                "sections": [
-                  {
-                    "name": "Chest",
+                    "name": "Ordon Ranch Grotto Lantern Chest",
                     "access_rules": [
-                      "shadcrystal,lantern"
+                      "Shadow_Crystal,Lantern"
                     ],
                     "item_count": 1
                   }
@@ -43,7 +31,7 @@
                 "map_locations": [
                   {
                     "map": "Main",
-                    "x": 651.96,
+                    "x": 660.96,
                     "y": 1127
                   }
                 ]

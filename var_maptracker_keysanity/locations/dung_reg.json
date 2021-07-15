@@ -1,81 +1,88 @@
 [
   {
     "name": "Ordon Village",
-    "parent": "Ordon Provence",
+    "parent": "Ordon Province",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "sections": [
       {
-        "name": "Wooden Sword Chest",
-        "short_name": "Wooden Sword",
+        "name": "Gift From Rusl",
         "item_count": 1,
         "access_rules": [
-          "rod",
-          "SkipIntro"
+          "Progressive_Fishing_Rod_1"
         ]
       },
       {
-        "name": "Link's House Basement Chest",
-        "short_name": "Basement Chest",
+        "name": "Link's Basement Chest",
         "access_rules": [
-          "lantern"
+          "Lantern"
         ],
         "item_count": 1
       },
       {
         "name": "Fishing Rod",
-        "short_name": "Rod",
         "item_count": 1,
         "chest_unopened_img": "images/rod.png",
-        "chest_opened_img": "images/rod_grey.png"
+        "chest_opened_img": "images/rod_grey.png",
+        "visibility_rules":
+        [
+          "SkipIntroOff"
+        ]
       },
       {
-        "name": "Sera's Bottle",
-        "short_name": "Bottle 1",
+        "name": "Ordon Cat Rescue",
         "access_rules": [
-          "rod",
-          "SkipIntro"
+          "Progressive_Fishing_Rod_1"
         ],
         "chest_unopened_img": "images/bottle-empty.png",
         "chest_opened_img": "images/bottle-grey.png",
-        "item_count": 1
+        "item_count": 1,
+        "visibility_rules":
+        [
+          "SkipIntroOff"
+        ]
       },
       {
-        "name": "Slingshot",
-        "short_name": "Slingshot",
+        "name": "Sera Shop Slingshot",
         "access_rules": [
-          "rod",
-          "SkipIntro"
+          "Progressive_Fishing_Rod"
         ],
         "item_count": 1,
         "chest_unopened_img": "images/slingshot.png",
-        "chest_opened_img": "images/slingshot-grey.png"
+        "chest_opened_img": "images/slingshot-grey.png",
+        "visibility_rules":
+        [
+          "SkipIntroOff"
+        ]
       },
       {
         "name": "Ordon Shield",
-        "short_name": "Ordon Shield",
         "chest_unopened_img": "images/ordon-shield.png",
         "chest_opened_img": "images/ordon-shield-grey.png",
         "item_count": 1,
         "access_rules": [
-          "$can_do_damage",
-          "SkipIntro"
+          "Progressive_Sword_1"
+        ],
+        "visibility_rules":
+        [
+          "SkipIntroOff"
         ]
       },
       {
         "name": "Ordon Sword",
-        "short_name": "Ordon Sword",
         "chest_unopened_img": "images/ordon-sword.png",
         "chest_opened_img": "images/ordon-sword-grey.png",
         "item_count": 1,
         "access_rules": [
-          "$can_do_damage",
-          "SkipIntro"
+          "Progressive_Sword_1"
+        ],
+        "visibility_rules":
+        [
+          "SkipIntroOff"
         ]
       },
       {
         "name": "Iron Boots Chest",
-        "short_name": "Iron Boots",
         "item_count": 1,
         "access_rules": [
           "$can_do_damage, vessel1",
