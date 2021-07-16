@@ -82,13 +82,11 @@
         ]
       },
       {
-        "name": "Iron Boots Chest",
+        "name": "Wrestling With Bo",
         "item_count": 1,
         "access_rules": [
-          "$can_do_damage, vessel1",
-          "$can_do_damage, TwilightSkip",
-          "SkipIntro, vessel1",
-          "SkipIntro, TwilightSkip"
+          "Progressive_Sword_1, Progressive_Fishing_Rod_1, Faron_Woods_Keys:1",
+          "SkipIntro"
         ]
       }
     ],
@@ -106,52 +104,172 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "$canAccessForest"
+      "@North Faron Woods, Lantern"
     ],
     "sections": [
       {
-        "name": "Entrance Vines Chest",
-        "short_name": "Entrance Vines",
+        "name": "Entrance",
+        "item_count": 1,
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Main Lobby",
         "item_count": 1,
         "access_rules": [
-          "$has_ranged_item"
+          "@Forest Temple/Entrance, $canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Second Monkey Room",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/Main Lobby, $canDefeatBombling, Forest_Temple_Small_Key:4",
+          "@Forest Temple/Main Lobby, $canBurnWebs, Forest_Temple_Small_Key:4"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "West Wing",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/Main Lobby, $canBurnWebs, Forest_Temple_Small_Key:4, canDefeatBokoblin",
+          "@Forest Temple/Main Lobby, $canBurnWebs, Progressive_Clawshot_1"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "West Tile Worm Room",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/West Wing, $canDefeatBombling"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Big Baba Chamber",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/West Wing, $canDefeatBombling"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Windless Bridge Room",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/Main Lobby, $canBurnWebs"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "North Deku Like Room",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/All Monkeys Room, Boomerang, $canDefeatWalltula, $canDefeatBokoblin"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Final Monkey Room",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/Windless Bridge Room, Boomerang, Forest_Temple_Small_Key:4"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "All Monkeys Room",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/Windless Bridge Room, Boomerang"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Ook",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/West Wing, Boomerang",
+          "@Forest Temple/Main Lobby, $canBurnWebs, $canDefeatBombling, $canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Forest_Temple_Small_Key:4"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Diababa",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/All Monkeys Room, Forest_Temple_Big_Key, $canFreeAllMonkeys",
+          "@Forest Temple/All Monkeys Room, Forest_Temple_Big_Key, Progressive_Clawshot_1"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Entrance Vines Chest",
+        "item_count": 1,
+        "access_rules": [
+          "@Forest Temple/Entrance, $canDefeatWalltula"
         ]
       },
       {
         "name": "Central Chest Behind Stairs",
-        "short_name": "Lobby Behind Stairs",
         "item_count": 1,
         "access_rules": [
-          "boomerang, $can_do_damage"
+          "@Forest Temple/Main Lobby, Boomerang, $canDefeatBombling"
         ]
       },
       {
-        "name": "Dungeon Map Chest",
-        "short_name": "Forest Map",
+        "name": "Central North Chest",
         "item_count": 1,
         "access_rules": [
-          "lantern, $can_do_damage"
-        ]
-      },
-      {
-        "name": "Ooccoo",
-        "short_name": "Ooccoo",
-        "item_count": 1,
-        "access_rules": [
-          "$can_do_damage"
+          "@Forest Temple/Main Lobby, Lantern"
         ]
       },
       {
         "name": "Windless Bridge Chest",
-        "short_name": "Windless Bridge Chest",
         "item_count": 1,
         "access_rules": [
-          "$can_burn_webs, $can_do_damage"
+          "@Forest Temple/Windless Bridge Room"
         ]
       },
       {
         "name": "Second Monkey Under Bridge Chest",
-        "short_name": "Second Monkey Chest",
         "item_count": 1,
         "access_rules": [
           "$can_burn_webs, $can_do_damage, forest_temple_small_key:4"
@@ -159,111 +277,89 @@
       },
       {
         "name": "Totem Pole Chest",
-        "short_name": "Totem Pole Chest",
         "item_count": 1,
         "access_rules": [
-          "$can_burn_webs, $can_do_damage, forest_temple_small_key:2",
-          "$can_burn_webs, $can_do_damage, clawshot"
+          "@Forest Temple/West Tile Worm Room"
         ]
       },
       {
-        "name": "West Tile Worm Small Chest",
-        "short_name": "West Tile Worm Small Chest",
+        "name": "West Tile Worm Room Vines Chest",
         "item_count": 1,
         "access_rules": [
-          "$can_burn_webs, $can_do_damage, forest_temple_small_key:2",
-          "$can_burn_webs, $can_do_damage, clawshot"
+          "@Forest Temple/West Tile Worm Room"
         ]
       },
       {
-        "name": "Deku Like Piece of Heart",
-        "short_name": "Deku Like PoH",
+        "name": "West Deku Like Chest",
         "item_count": 1,
         "access_rules": [
-          "$can_burn_webs, $can_do_damage, forest_temple_small_key:2, $has_ranged_item",
-          "$can_burn_webs, $can_do_damage, forest_temple_small_key:2, $has_explosives",
-          "$can_burn_webs, $can_do_damage, clawshot"
+          "@Forest Temple/West Wing, $canDefeatBombling"
         ]
       },
       {
-        "name": "Big Baba Small Key",
-        "short_name": "Baba Small Key",
+        "name": "Big Baba Key",
         "access_rules": [
-          "$can_burn_webs, $can_do_damage, $has_ranged_item, forest_temple_small_key:2",
-          "$can_burn_webs, $can_do_damage, clawshot"
+          "@Forest Temple/Big Baba Chamber, $canDefeatBigBaba"
         ],
         "item_count": 1
       },
       {
         "name": "Gale Boomerang",
-        "short_name": "Boomerang",
         "access_rules": [
-          "$can_burn_webs, $can_do_damage, $has_ranged_item, forest_temple_small_key:4",
-          "$can_burn_webs, $can_do_damage, $has_ranged_item, boomerang, forest_temple_small_key:2",
-          "$can_burn_webs, $can_do_damage, $has_ranged_item, boomerang, clawshot"
+          "@Forest Temple/Ook, $canDefeatOok"
         ],
         "chest_unopened_img": "images/boomerang.png",
         "chest_opened_img": "images/boomerang-grey.png",
         "item_count": 1
       },
       {
-        "name": "West Tile Worm Heart Piece",
-        "short_name": "West Tile Worm Heart Piece",
+        "name": "West Tile Worm Chest Behind Stairs",
         "access_rules": [
-          "$can_burn_webs, $can_do_damage, boomerang, forest_temple_small_key:2",
-          "$can_burn_webs, $can_do_damage, boomerang, clawshot"
+          "@Forest Temple/West Tile Worm Room, Boomerang"
         ],
         "item_count": 1
       },
       {
-        "name": "Compass Chest",
-        "short_name": "Forest Compass",
+        "name": "Central Chest Hanging From Web",
         "access_rules": [
-          "$can_do_damage, boomerang",
-          "$can_do_damage, clawshot",
-          "$can_do_damage, chainball",
-          "$can_do_damage, bow"
+          "@Forest Temple/Main Lobby, $canKnockDownHangingWeb"
         ],
         "item_count": 1
       },
       {
         "name": "Big Key Chest",
-        "short_name": "Forest Big Key",
         "access_rules": [
-          "$can_burn_webs, $can_do_damage, boomerang"
+          "@Forest Temple/Main Lobby, $canBurnWebs, Boomerang",
+          "@Forest Temple/Main Lobby, $canDefeatBombling, Boomerang"
         ],
         "item_count": 1
       },
       {
-        "name": "Water Cave Near Big Key",
-        "short_name": "Water Cave Near Big Key",
+        "name": "East Water Cave Chest",
         "access_rules": [
-          "$can_burn_webs, $can_do_damage"
+          "@Forest Temple/Main Lobby, $canBurnWebs",
+          "@Forest Temple/Main Lobby, $canDefeatBombling"
         ],
         "item_count": 1
       },
       {
         "name": "North Deku Like Chest",
-        "short_name": "North Deku Like Chest",
         "access_rules": [
-          "$can_burn_webs, $can_do_damage, boomerang"
+          "@Forest Temple/North Deku Like Room, Boomerang"
         ],
         "item_count": 1
       },
       {
         "name": "East Tile Worm Chest",
-        "short_name": "East Tile Worm Chest",
         "access_rules": [
-          "$can_burn_webs, $can_do_damage, boomerang, forest_temple_small_key:4"
+          "@Forest Temple/Final Monkey Room, $canDefeatTileWorm, $canDefeatSkulltula, $canDefeatWalltula"
         ],
         "item_count": 1
       },
       {
-        "name": "Diababa",
-        "short_name": "Diababa",
+        "name": "Diababa Heart Container",
         "access_rules": [
-          "$can_burn_webs, $can_do_damage, boomerang, forest_temple_boss_key, forest_temple_small_key:4",
-          "$can_burn_webs, $can_do_damage, boomerang, forest_temple_boss_key, clawshot"
+          "@Forest Temple/Diababa, $canDefeatDiababa"
         ],
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC-grey.png",
