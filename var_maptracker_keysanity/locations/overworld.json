@@ -133,41 +133,11 @@
           {
             "name": "North Faron Woods",
             "children": [
-              {
-                "name": "North Faron Cave Small Chest",
-                "short_name": "North Faron Cave Small Chest",
-                "sections": [
-                  {
-                    "name": "Cave Small Chest",
-                    "access_rules": [
-                      "lantern, faron_woods_small_key:2",
-                      "lantern, shadcrystal, $has_explosives, dominion",
-                      "lantern, faron_woods_small_key:1, shadcrystal, $faron_twilight_cleared"
-                    ],
-                    "item_count": 1
-                  },
-                  {
-                    "name": "Cave Heart Piece Chest",
-                    "access_rules": [
-                      "lantern, faron_woods_small_key:2",
-                      "lantern, shadcrystal, $has_explosives, dominion",
-                      "lantern, faron_woods_small_key:1, shadcrystal, $faron_twilight_cleared"
-                    ],
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Main",
-                    "x": 652,
-                    "y": 851
-                  }
-                ]
-              }
+              
             ]
           },
           {
-            "name": "West Faron Woods",
+            "name": "North Faron Woods",
             "sections": [
               {
                 "name": "Small Chest",
@@ -188,10 +158,51 @@
             ]
           },
           {
-            "name": "Mist - Chests",
+            "name": "Faron Mist Area",
+            "access_rules":[
+              "@Faron Province/South Faron Woods"
+            ],
+            "children": 
+            [
+            {
+              "name": "Mist Area",
+              "sections":
+              [
+              {
+                "name": "Faron Mist Stump Chest",
+                "access_rules": [
+                  "Lantern"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Faron Mist North Chest",
+                "access_rules": [
+                  "Lantern"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Faron Mist South Chest",
+                "access_rules": [
+                  "Lantern"
+                ],
+                "item_count": 1
+              }
+              ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 616,
+                "y": 868
+              }
+            ]
+          },
+          {
+            "name": "North Faron Cave Small Chest",
             "sections": [
               {
-                "name": "1st Chest",
+                "name": "Cave Small Chest",
                 "access_rules": [
                   "lantern, faron_woods_small_key:2",
                   "lantern, shadcrystal, $has_explosives, dominion",
@@ -200,16 +211,7 @@
                 "item_count": 1
               },
               {
-                "name": "2nd Chest",
-                "access_rules": [
-                  "lantern, faron_woods_small_key:2",
-                  "lantern, shadcrystal, $has_explosives, dominion",
-                  "lantern, faron_woods_small_key:1, shadcrystal, $faron_twilight_cleared"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "3rd Chest",
+                "name": "Cave Heart Piece Chest",
                 "access_rules": [
                   "lantern, faron_woods_small_key:2",
                   "lantern, shadcrystal, $has_explosives, dominion",
@@ -221,10 +223,12 @@
             "map_locations": [
               {
                 "map": "Main",
-                "x": 616,
-                "y": 868
+                "x": 652,
+                "y": 851
               }
             ]
+          }
+          ]
           },
           {
             "name": "Sacred Grove",

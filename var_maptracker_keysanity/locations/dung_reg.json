@@ -384,6 +384,47 @@
     "chest_opened_img": "images/chest_open.png",
     "sections": [
       {
+        "name": "Entrance",
+        "item_count": 1,
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Main Magnet Room",
+        "item_count": 1,
+        "access_rules": [
+          "@Goron Mines/Entrance, Iron_Boots"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Moving Wall Room",
+        "item_count": 1,
+        "access_rules": [
+          "@Goron Mines/Main Magnet Room, Goron_Mines_Small_Key:1"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
+        "name": "Gor Amato Room",
+        "item_count": 1,
+        "access_rules": [
+          "@Goron Mines/Moving Wall Room, Iron_Boots, $canDefeatDodongo"
+        ],
+        "visibility_rules":
+        [
+          "hidden_region"
+        ]
+      },
+      {
         "name": "Entrance Small Chest",
         "short_name": "Entrance Small Chest",
         "item_count": 1
@@ -398,7 +439,6 @@
       },
       {
         "name": "Gor Amato Key Shard",
-        "short_name": "Gor Amato Key Shard",
         "access_rules": [
           "irons, goron_mines_small_key:1"
         ],

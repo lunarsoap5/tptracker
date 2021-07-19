@@ -29,11 +29,11 @@
     "stages": [
       {
         "img": "images/clawshot.png",
-        "codes": "Clawshot"
+        "codes": "Progressive_Clawshot_1"
       },
       {
         "img": "images/clawshot2.png",
-        "codes": "Double_Clawshot"
+        "codes": "Progressive_Clawshot_2"
       }
     ]
   },
