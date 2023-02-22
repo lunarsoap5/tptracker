@@ -1,4 +1,5 @@
 Tracker:AddItems("items/common.json")
 Tracker:AddItems("items/dungeon_items.json")
+Tracker:AddLayouts("layouts/dungeon_grids_keysanity.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")

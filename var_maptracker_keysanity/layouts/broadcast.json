@@ -1,0 +1,99 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+    "margin": "10",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "content": [
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "content": [
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "content": [
+                      {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+                        "item_size": 45,
+                        "item_margin": "0,0,10,5",
+                        "rows": [
+                          [
+                            "Progressive_Fishing_Rod_1",
+                            "Slingshot",
+                            "Lantern",
+                            "Boomerang",
+                            "Iron_Boots",
+                            "Progressive_Bow"
+                          ],
+                          [
+                            "Bomb_Bag",
+                            "Giant_Bomb_Bags",
+                            "Hawkeye",
+                            "Clawshot",
+                            "Spinner",
+                            "Ball_and_Chain"
+                          ],
+                          [
+                            "Progressive_Dominion_Rod_1",
+                            "Auru_Memo",
+                            "Ashei_Sketch",
+                            "Bottle",
+                            "Shadow_Crystal",
+                            "Progressive_Hidden_Skill"
+                          ],
+                          [
+                            "Renado_Letter",
+                            "Invoice",
+                            "Wooden_Statue",
+                            "Ilia_Charm",
+                            "Horse_Call",
+                            "Skybook"
+                          ],
+                          [
+                            "Progressive_Wallet_1",
+                            "Golden_Bugs",
+                            "Poe_Soul",
+                            "Progressive_Sword_1",
+                            "Ordon_Shield",
+                            "Hylian_Shield"
+                          ],
+                          [
+                            "Zora_Armor",
+                            "Magic_Armor",
+                            "Piece_of_Heart",
+                            "Heart_Container",
+                            "Progressive_Fused_Shadow_1",
+                            "Progressive_Mirror_Shard_1"
+                          ],
+                          [
+                            "Youth_Scent",
+                            "Ilia_Scent",
+                            "Poe_Scent",
+                            "Reekfish_Scent",
+                            "Medicine_Scent"
+                          ]
+                        ]
+                      },
+                      {
+                        "type": "layout",
+                        "key": "dungeon_grid_tall"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

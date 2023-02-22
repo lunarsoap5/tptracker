@@ -1,93 +1,473 @@
 ﻿{
-	"tracker_broadcast": 
-	{
-		"type": "array",
-		"margin": "10",
-		"content": 
-		[
+	"tracker_broadcast": {
+	  "type": "array",
+	  "margin": "10",
+	  "content": [
+		{
+		  "type": "array",
+		  "orientation": "horizontal",
+		  "content": [
 			{
-				"type": "array",
-				"orientation": "horizontal",
-				"content": 
-				[
+			  "type": "array",
+			  "orientation": "vertical",
+			  "content": [
+				{
+				  "type": "array",
+				  "orientation": "horizontal",
+				  "content": [
 					{
-						"type": "array",
-						"orientation": "vertical",
-						"content": 
-						[
-							{
-								"type": "array",
-								"orientation": "horizontal",
-								"content": 
-								[
-									{
-										"type": "array",
-										"orientation": "vertical",
-										"content": 
-										[
-											{
-												"type": "itemgrid",
-												"h_alignment": "center",
-												"item_size": 36,
-												"item_margin": "0,0,10,5",
-                        "rows": [
-                          [ "rod", "slingshot", "lantern", "boomerang", "irons", "bow" ],
-                          [ "bomb1", "bomb2", "bomb3", "hawkeye", "clawshot", "spinner" ],
-                          [ "chainball", "dominion", "bottle1", "bottle2", "bottle3", "bottle4" ],
-                          [ "entry", "charm", "bugs", "sword1", "sword2", "sword3" ],
-                          [ "poh", "container", "soul", "skills", "shield2", "shield3" ],
-                          [ "wallet", "letters", "scent1", "greentunic", "bluetunic", "redtunic" ]
-                        ]
-											},
-											{
-												"type": "itemgrid",
-												"h_alignment": "center",
-												"item_margin": "0,0,10,5",
-												"item_height": 50,
-												"item_width": 36,
-												"margin": "0,0",
-												"rows": 
-												[
-													["shard1", "shard2", "shard3", "shard4"],
-												]
-											},
-										]
-									},
-									{
-										"type": "array",
-										"orientation": "vertical",
-										"content": 
-										[
-											{
-												"type": "array",
-												"orientation": "vertical",
-												"content": 
-												[
-													{
-														"type": "itemgrid",
-														"h_alignment": "center",
-														"item_margin": "0,20",
-														"item_height": 50,
-														"item_width": 36,
-														"margin": "0,3",
-														"badge_font_size": 10,
-														"rows": 
-														[
-															[ "shad1" ],
-															[ "shad2" ],
-															[ "shad3" ]
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						]
+					  "type": "array",
+					  "orientation": "vertical",
+					  "content": [
+						{
+						  "type": "itemgrid",
+						  "h_alignment": "center",
+						  "item_size": 45,
+						  "item_margin": "0,0,10,5",
+						  "rows": [
+							[
+							  "Progressive_Fishing_Rod_1",
+							  "Slingshot",
+							  "Lantern",
+							  "Boomerang",
+							  "Iron_Boots",
+							  "Progressive_Bow"
+							],
+							[
+							  "Bomb_Bag",
+							  "Giant_Bomb_Bags",
+							  "Hawkeye",
+							  "Clawshot",
+							  "Spinner",
+							  "Ball_and_Chain"
+							],
+							[
+							  "Progressive_Dominion_Rod_1",
+							  "Auru_Memo",
+							  "Ashei_Sketch",
+							  "Bottle",
+							  "Shadow_Crystal",
+							  "Progressive_Hidden_Skill"
+							],
+							[
+							  "Renado_Letter",
+							  "Invoice",
+							  "Wooden_Statue",
+							  "Ilia_Charm",
+							  "Horse_Call",
+							  "Skybook"
+							],
+							[
+							  "Progressive_Wallet_1",
+							  "Golden_Bugs",
+							  "Poe_Soul",
+							  "Progressive_Sword_1",
+							  "Ordon_Shield",
+							  "Hylian_Shield"
+							],
+							[
+							  "Zora_Armor",
+							  "Magic_Armor",
+							  "Piece_of_Heart",
+							  "Heart_Container",
+							  "Progressive_Fused_Shadow_1",
+							  "Progressive_Mirror_Shard_1"
+							],
+							[
+							  "Youth_Scent",
+							  "Ilia_Scent",
+							  "Poe_Scent",
+							  "Reekfish_Scent",
+							  "Medicine_Scent"
+							]
+						  ]
+						},
+						{
+						  "type": "layout",
+						  "key": "dungeon_grid_tall"
+						}
+					  ]
 					}
-				]
+				  ]
+				},
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "center",
+					"item_margin": "0,0,10,5",
+					"margin": "0,0",
+					"content": [
+					  {
+						"type": "canvas",
+						"width": 60,
+						"height": 90,
+						"margin": "5,5",
+						"content": [
+						  {
+							"type": "item",
+							"item": "Diababa",
+							"canvas_depth": 1,
+							"width": 60,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Forest_Temple_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 0,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Forest_Temple_Big_Key",
+							"canvas_depth": 1,
+							"canvas_left": 30,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  }
+						]
+					  },
+					  {
+						"type": "canvas",
+						"width": 60,
+						"height": 90,
+						"margin": "5,5",
+						"content": [
+						  {
+							"type": "item",
+							"item": "Fyrus",
+							"canvas_depth": 1,
+							"width": 60,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Goron_Mines_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 0,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Goron_Mines_Big_Key",
+							"canvas_depth": 1,
+							"canvas_left": 30,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  }
+						]
+					  },
+					  {
+						"type": "canvas",
+						"width": 60,
+						"height": 90,
+						"margin": "5,5",
+						"content": [
+						  {
+							"type": "item",
+							"item": "Morpheel",
+							"canvas_depth": 1,
+							"width": 60,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Lakebed_Temple_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 0,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Lakebed_Temple_Big_Key",
+							"canvas_depth": 1,
+							"canvas_left": 30,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  }
+						]
+					  },
+					  {
+						"type": "canvas",
+						"width": 60,
+						"height": 90,
+						"margin": "5,5",
+						"content": [
+						  {
+							"type": "item",
+							"item": "Stallord",
+							"canvas_depth": 1,
+							"width": 60,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Arbiters_Grounds_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 0,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Arbiters_Grounds_Big_Key",
+							"canvas_depth": 1,
+							"canvas_left": 30,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  }
+						]
+					  },
+					  {
+						"type": "canvas",
+						"width": 60,
+						"height": 90,
+						"margin": "5,5",
+						"content": [
+						  {
+							"type": "item",
+							"item": "Ordon_Pumpkin",
+							"canvas_depth": 2,
+							"canvas_left": 0,
+							"canvas_top": 60,
+							"width": 25,
+							"height": 25
+						  },
+						  {
+							"type": "item",
+							"item": "Ordon_Goat_Cheese",
+							"canvas_depth": 2,
+							"canvas_left": 30,
+							"canvas_top": 60,
+							"width": 25,
+							"height": 25
+						  },
+						  {
+							"type": "item",
+							"item": "Blizzeta",
+							"canvas_depth": 1,
+							"width": 60,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Snowpeak_Ruins_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 0,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Snowpeak_Ruins_Bedroom_Key",
+							"canvas_depth": 1,
+							"canvas_left": 30,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  }
+						]
+					  }
+					]
+				  },
+				  {
+					"type": "array",
+					"orientation": "horizontal",
+					"h_alignment": "center",
+					"item_margin": "0,0,10,5",
+					"margin": "0,0",
+					"content": [
+					  {
+						"type": "canvas",
+						"width": 60,
+						"height": 90,
+						"margin": "5,5",
+						"content": [
+						  {
+							"type": "item",
+							"item": "Armogohma",
+							"canvas_depth": 1,
+							"width": 60,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Temple_of_Time_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 0,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Temple_of_Time_Big_Key",
+							"canvas_depth": 1,
+							"canvas_left": 30,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  }
+						]
+					  },
+					  {
+						"type": "canvas",
+						"width": 60,
+						"height": 90,
+						"margin": "5,5",
+						"content": [
+						  {
+							"type": "item",
+							"item": "Argorok",
+							"canvas_depth": 1,
+							"width": 60,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "City_in_The_Sky_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 0,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "City_in_The_Sky_Big_Key",
+							"canvas_depth": 1,
+							"canvas_left": 30,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  }
+						]
+					  },
+					  {
+						"type": "canvas",
+						"width": 60,
+						"height": 90,
+						"margin": "5,5",
+						"content": [
+						  {
+							"type": "item",
+							"item": "Zant",
+							"canvas_depth": 1,
+							"width": 60,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Palace_of_Twilight_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 0,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Palace_of_Twilight_Big_Key",
+							"canvas_depth": 1,
+							"canvas_left": 30,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  }
+						]
+					  },
+					  {
+						"type": "canvas",
+						"width": 60,
+						"height": 90,
+						"margin": "5,5",
+						"content": [
+						  {
+							"type": "item",
+							"item": "Ganondorf",
+							"canvas_depth": 1,
+							"width": 60,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Hyrule_Castle_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 0,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  },
+						  {
+							"type": "item",
+							"item": "Hyrule_Castle_Big_Key",
+							"canvas_depth": 1,
+							"canvas_left": 30,
+							"canvas_top": 30,
+							"width": 30,
+							"height": 30
+						  }
+						]
+					  },
+					  {
+						"type": "canvas",
+						"width": 60,
+						"height": 90,
+						"margin": "5,5",
+						"content": [
+						  {
+							"type": "item",
+							"item": "Gate_Keys",
+							"canvas_depth": 2,
+							"canvas_left": 30,
+							"width": 25,
+							"height": 25
+						  },
+						  {
+							"type": "item",
+							"item": "Vessel_of_Light",
+							"canvas_depth": 1,
+							"width": 60,
+							"height": 50
+						  },
+						  {
+							"type": "item",
+							"item": "Faron_Woods_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 0,
+							"canvas_top": 50,
+							"width": 25,
+							"height": 25
+						  },
+						  {
+							"type": "item",
+							"item": "Gerudo_Desert_Small_Key",
+							"canvas_depth": 1,
+							"canvas_left": 30,
+							"canvas_top": 50,
+							"width": 25,
+							"height": 25
+						  }
+						]
+					  }
+					]
+				  }
+			  ]
 			}
-		]
+		  ]
+		}
+	  ]
 	}
-}
+  }
