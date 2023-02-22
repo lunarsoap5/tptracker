@@ -229,15 +229,15 @@
         "codes": "Vessel_of_Light"
       },
       {
-        "img": "images/vessel1.png",
+        "img": "images/Vessel1.png",
         "codes": "Faron_Vessel_of_Light"
       },
       {
-        "img": "images/vessel2.png",
+        "img": "images/Vessel2.png",
         "codes": "Eldin_Vessel_of_Light"
       },
       {
-        "img": "images/vessel3.png",
+        "img": "images/Vessel3.png",
         "codes": "Lanayru_Vessel_of_Light"
       }
     ]
