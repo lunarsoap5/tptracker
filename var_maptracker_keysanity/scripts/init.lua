@@ -10,7 +10,6 @@ ScriptHost:LoadScript("scripts/logic.lua")
 if has_map then
     Tracker:AddMaps("maps/maps.json")
     Tracker:AddLocations("locations/overworld.json")
-	Tracker:AddLocations("locations/bugs.json")
     Tracker:AddLocations("locations/dung_reg.json")
     Tracker:AddLayouts("layouts/options.json")
     Tracker:AddLayouts("layouts/dungeon_grids_keysanity.json")
