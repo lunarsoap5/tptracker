@@ -327,8 +327,8 @@
                 "name": "Faron Mist Cave",
                 "access_rules": 
                 [
-                  "$hasSword, Slingshot",
-                  "skip-prologue-on"
+                  "Lantern, $hasSword, Slingshot",
+                  "Lantern, skip-prologue-on"
                 ],
                 "children": 
                 [

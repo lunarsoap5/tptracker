@@ -284,13 +284,6 @@
         ]
       },
       {
-        "name": "Goron Mines Gor Liggs Chest",
-        "item_count": 1,
-        "access_rules": [
-          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatDangoro"
-        ]
-      },
-      {
         "name": "Goron Mines Magnet Maze Chest",
         "item_count": 1,
         "access_rules": [
@@ -396,7 +389,7 @@
         ]
       },
       {
-        "name": "Lakebed Temple Before Deku Toad Alcove Chest",
+        "name": "Lakebed Temple Central Room Spire Chest",
         "item_count": 1,
         "access_rules": [
           "$canLaunchBombs, Iron_Boots, Lakebed_Temple_Small_Key:3"
@@ -614,13 +607,6 @@
         "item_count": 1
       },
       {
-        "name": "Arbiters Grounds East Upper Turnable Chest",
-        "access_rules": [
-          "Arbiters_Grounds_Small_Key:2, Lantern, Shadow_Crystal"
-        ],
-        "item_count": 1
-      },
-      {
         "name": "Arbiters Grounds North Turning Room Chest",
         "access_rules": [
           "Arbiters_Grounds_Small_Key:4, Lantern, Shadow_Crystal, Clawshot"
@@ -670,13 +656,6 @@
         "item_count": 1,
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC-grey.png"
-      },
-      {
-        "name": "Arbiters Grounds Spinner Room First Small Chest",
-        "access_rules": [
-          "Arbiters_Grounds_Small_Key:5, Lantern, Shadow_Crystal, Clawshot, Spinner"
-        ],
-        "item_count": 1
       },
       {
         "name": "Arbiters Grounds Torch Room East Chest",
@@ -1102,16 +1081,9 @@
         "item_count": 1
       },
       {
-        "name": "Temple of Time Moving Wall Beamos Room Chest",
-        "access_rules": [
-          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos"
-        ],
-        "item_count": 1
-      },
-      {
         "name": "Temple of Time Moving Wall Dinalfos Room Chest",
         "access_rules": [
-          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos, $canDefeatDinalfos"
+          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos, $canDefeatDinalfos, Progressive_Dominion_Rod_1"
         ],
         "item_count": 1
       }, 
