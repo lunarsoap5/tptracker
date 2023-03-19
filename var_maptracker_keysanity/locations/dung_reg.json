@@ -1071,6 +1071,9 @@
       },
       {
         "name": "Temple of Time Lobby Lantern Chest",
+        "access_rules": [
+          "Lantern"
+        ],
         "item_count": 1
       },
       {
@@ -1457,7 +1460,7 @@
       {
         "name": "Palace of Twilight East Wing Second Room Northwest Chest",
         "access_rules": [
-          "$canDefeatPhantomZant, Double_Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:3"
+          "$canDefeatPhantomZant, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:3"
         ],
         "item_count": 1
       },
