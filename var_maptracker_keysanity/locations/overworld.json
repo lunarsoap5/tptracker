@@ -1071,7 +1071,8 @@
               {
                 "name": "Kakariko Village Bomb Rock Spire Heart Piece",
                 "access_rules": [
-                  "$canLaunchBombs, Bomb_Bag:1"
+                  "$canLaunchBombs, Bomb_Bag:1, Boomerang",
+                  "$canLaunchBombs, Bomb_Bag:1, Clawshot"
                 ],
                 "item_count": 1,
                 "chest_unopened_img": "images/HP.png",
@@ -1087,7 +1088,7 @@
               {
                 "name": "Kakariko Graveyard Golden Wolf",
                 "access_rules": [
-                  "$canAccessLanayru, Shadow_Crystal"
+                  "$canAccessLanayru, Shadow_Crystal, $canAccessSnowpeakRuins"
                 ],
                 "chest_unopened_img": "images/GWolf.png",
                 "chest_opened_img": "images/GWolf-grey.png",
@@ -1562,7 +1563,8 @@
           {
             "name": "Zoras Domain",
             "access_rules": [
-              "$canSmash"
+              "$canSmash",
+              "Shadow_Crystal"
             ],
             "color": "#09a09d",
             "children": [

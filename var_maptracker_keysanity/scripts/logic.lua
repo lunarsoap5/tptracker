@@ -1536,7 +1536,7 @@ function canCompletePrologue()
           end
         
 function canCompleteMDH()
-  if (canCompleteLakebedTemple() or has("mdh-skip-on"))
+  if (canCompleteLakebedTemple() or has("skip-mdh-on"))
   then
     return true
   else
@@ -1586,6 +1586,15 @@ function canCompleteLakebedTemple()
                 canAccessLakebed() and canLaunchBombs() and has("Lakebed_Temple_Small_Key",3) and has("Lakebed_Temple_Big_Key")
                 and canDefeatMorpheel()
             )
+            then
+              return true
+            else
+              return false
+            end
+          end
+
+function canCompleteArbitersGrounds()
+            if ((canAccessArbiters() and has("Arbiters_Grounds_Small_Key",4) and has("Lantern") and has("Shadow_Crystal") and has("Clawshot") and has("Spinner") and has("Arbiters_Grounds_Big_Key")) and (( has("palace-vanilla") and canCompleteCityinTheSky()) or (has("palace-fused") and has("Progressive_Fused_Shadow_3") or (has("palace-mirror") and has("Progressive_Mirror_Shard_3")) or has("palace-open"))))
             then
               return true
             else
@@ -1699,7 +1708,7 @@ function canAccessLanayru()
 end
 
 function canAccessArbiters()
-  if ((canSmash() or has("Gate_Keys")) and ((hasSword() and has("Slingshot")) or  has("skip-prologue-on")) and has("Auru_Memo") and canLeaveForest())
+  if ((canSmash() or has("Gate_Keys")) and ((hasSword() and has("Slingshot")) or  has("skip-prologue-on")) and has("Auru_Memo") and (has("early-arbiters-on") or has("Gerudo_Desert_Small_Key")) and canLeaveForest())
   then
     return true
   else

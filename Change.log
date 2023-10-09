@@ -33,3 +33,13 @@
 	- Minor Changes
 		- Minor Logic Adjustments
 -------------------------------------------------------------------
+  #### Version 3.3 ####
+  #####################
+  
+	- Minor Changes
+		- Minor Logic Adjustments
+			- Fixed PoT Access Logic
+			- Fixed All dungeons Logic
+				- Created canCompleteArbitersGrounds function
+				
+-------------------------------------------------------------------

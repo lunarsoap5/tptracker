@@ -1200,14 +1200,14 @@
       {
         "name": "City in The Sky Central Outside Ledge Chest",
         "access_rules": [
-          "Double_Clawshot, $canDefeatBigBaba, Iron_Boots, Shadow_Crystal"
+          "Double_Clawshot, $canDefeatBigBaba, Shadow_Crystal"
         ],
         "item_count": 1
       },
       {
         "name": "City in The Sky Central Outside Poe Island Chest",
         "access_rules": [
-          "Double_Clawshot, $canDefeatBigBaba, Iron_Boots, Shadow_Crystal"
+          "Double_Clawshot, $canDefeatBigBaba, Shadow_Crystal"
         ],
         "item_count": 1
       },
@@ -1221,7 +1221,7 @@
       {
         "name": "City in The Sky Chest Below Big Key Chest",
         "access_rules": [
-          "Double_Clawshot, $canDefeatBigBaba, Iron_Boots"
+          "Double_Clawshot, $canDefeatBigBaba"
         ],
         "item_count": 1
       },
